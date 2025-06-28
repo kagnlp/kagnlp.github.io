@@ -1,0 +1,4 @@
+---
+---
+{% bibliography --template bibentry %}
+

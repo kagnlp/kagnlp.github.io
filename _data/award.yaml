@@ -1,0 +1,79 @@
+- group : Research Awards
+  id: award
+  award :
+    - title : AAAI Senior Memeber
+      year : 2023
+    - title : Google Research Scholar Award
+      year : 2021
+    - title : Sloan Research Fellowship
+      year : 2021
+      url : https://newsroom.ucla.edu/stories/four-ucla-faculty-members-awarded-2021-sloan-research-fellowships
+    - title : NSF Research Initiation Initiative (CRII)
+      year : 2016
+    - title : Okawa Research Grant Award
+      year : 2018
+      url :
+    - title : Amazon Research Award
+      year : 2019
+      url : https://www.cs.ucla.edu/professor-kai-wei-chang-awarded-the-2019-amazon-research-award/
+    - title : Facebook Research Award
+      year : 2019
+      url : https://newsroom.ucla.edu/dept/faculty/professors-of-computer-science-awarded-the-2019-facebook-research-award
+    - title : C.L and Jane W. S. Liu Award, University of Illinois
+      year : 2013
+    - title : Yahoo! Key Scientific Challenges Program Award
+      year : 2011
+- group : Student Awards
+  id : student
+  award :
+    - title : Tanmay won Bloomberg Fellowship and Amazon Fellowship
+      year: 2024
+    - title : Harold Li won Google PhD Fellowship
+      year : 2023
+      url : https://research.google/outreach/phd-fellowship/recipients/
+    - title : Pan Lu won Qualcomm Innovation PhD Fellowship and UCLA Dissertation Year Fellowship
+      year : 2023
+      url: https://www.qualcomm.com/research/university-relations/innovation-fellowship
+    - title : Wade Yin won the Amazon Research Fellowship
+      year : 2022
+    - title : Harold Li and Tao Meng won the Amazon Research Fellowship
+      year : 2021
+    - title : Jieyu Zhao won the Microsoft PhD Fellowship
+      year : 2020
+      url : https://www.microsoft.com/en-us/research/blog/2020-ada-lovelace-and-phd-fellowships-help-recipients-achieve-broad-research-and-educational-goals
+      desc : For her research on examining the various potential stereotypes that lie in machine learning models and developing computational approaches that enhance fairness in natural language processing applications. 
+    - title : Wasi Ahamd won the William L Ballard Jr Endowed Graduate Fellowship
+      year : 2017
+      desc : For demonstrating academic excellence in Engineering at University of Virginia 
+
+- group : Paper Awards
+  id : paper
+  award :
+    - title : Outstanding Paper Award
+      venue : ACL 2023
+      desc : "The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks, Nikil Roashan Selvam, Sunipa Dev, Daniel Khashabi, Tushar Khot, and Kai-Wei Chang"
+    - title : Area Chair's Award
+      venue : ACL 2023
+      desc : "ParaAMR: A Large-Scale Syntactically Diverse Paraphrase Dataset by AMR Back-Translation, Kuan-Hao Huang, Varun Iyer, I.-Hung Hsu, Anoop Kumar, Kai-Wei Chang, and Aram Galstyan"
+      url: "/bibliography/huang2023paraarm/"
+    - title : Best Paper Award
+      venue : ICLR workshop on Reliable and Trustworthy Large Scale Machine Learning, 2023.
+      desc : "CleanCLIP: Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning, Hritik Bansal, Nishad Singhi, Yu Yang, Fan Yin, Aditya Grover, and Kai-Wei Chang"
+      url : "/bibliography/bansal2023cleanclip/"
+    - title : Best Paper Finalist
+      venue : CVPR 2022
+      desc : "Grounded Language-Image Pre-training, Liunian Harold Li, Pengchuan Zhang, Haotian Zhang, Jianwei Yang, Chunyuan Li, Yiwu Zhong, Lijuan Wang, Lu Yuan, Lei Zhang, Jenq-Neng Hwang, Kai-Wei Chang, and Jianfeng Gao"
+      url : "/bibliography/li2022grounded/" 
+    - title : Best Long Paper Award 
+      venue: EMNLP 2017
+      desc : "Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints, Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang" 
+      url : "/bibliography/zhao2017men/" 
+    - title : Best Paper Award
+      venue : KDD 2010
+      desc : "Large Linear Classification When Data Cannot Fit In Memory, Hsiang-Fu Yu, Cho-Jui Hsieh, Kai-Wei Chang, and Chih-Jen Lin"
+      url : "/bibliography/yu2010large/"
+    - title : Best Paper Award
+      venue : ACL RepL4NLP Workshop 2017
+      desc : "Beyond Bilingual: Multi-senseWord Embeddings using Multilingual Context"
+      url : "/bibliography/upadhyay2017beyond/"
+

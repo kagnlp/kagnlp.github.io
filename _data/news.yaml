@@ -1,0 +1,181 @@
+- group: Travel
+  news:
+    - title: NeurIPS
+      start: Dec 12, 2023
+      end: Dec 16, 2023
+    - title: ACL
+      start: July 8, 2023
+      end: July 14, 2023
+    - title: ICML
+      start: July 22, 2023
+      end: July 28, 2023
+    - title: DAPRA Foward
+      start: July 31, 2023
+      end: August 2, 2023
+    - title: IJCAI
+      start: July 23, 2022
+      end: July 28, 2022
+    - title: NAACL
+      start: July 9, 2022
+      end: July 16, 2022
+    - title: UCSD
+      end: March 2, 2020
+    - title: USC-ISI
+      end: March 27, 2020
+    - title: AAAI 2020
+      start: Feb 7, 2020
+      end: Feb 8, 2020
+    - title: UC Irvine
+      end: Jan 17, 2020
+    - title: EMNLP 2019
+      url: https://www.emnlp-ijcnlp2019.org/
+      start: Nov 3, 2019
+      end: Nov 7, 2019
+    - title: ACL 2019
+      url: http://www.acl2019.org/
+      start: Jul 28, 2019
+      end: Aug 2, 2019
+
+- group: News
+  news:
+    - date: Jan, 2023
+      items:
+        - desc: I was elected as a senior member at AAAI.
+    - date: Nov, 2022
+      items:
+        - desc: Da Yin receives Amazon Fellowship! Congrats
+    - date: June, 2022
+      items:
+        - desc: I will serve as an associate program chair for AAAI 2023
+        - desc: <a href="bibliography/li2022grounded/">GLIP</a> is on Best Paper Fanalist at CVPR 2023. Congrats Harold!
+    - date: May, 2022
+      items:
+        - desc: I will serve as an area chair at EMNLP, NeurIPS, AACL 2023
+        - desc: Our alumna, Jieyu Zhao, will join USC as an assistant professor in Fall 2023. Congrats!
+    - date: Feb, 2022
+      items:
+        - desc: Harold Li and Tao Meng receive Amazon Fellowship! Congrats
+        - desc: 7 papers (4 main, 3 finding) will be presented at ACL. Check out our new [ACL 2022 papers](http://web.cs.ucla.edu/publications/).
+    - date: Aug, 2021
+      items:
+        - desc: 5 long paper are accepted to EMNLP main and 2 papers are accepted to finding. Check out our new [EMNLP 2021 papers](http://web.cs.ucla.edu/publications/).
+    - date: July, 2021
+      items:
+        - desc: I will chair the Ethics Committee at NAACL 2022.
+        - desc: I taught a tutorial on Fairness in NLP at ML Summer School 2021.
+    - date: May, 2021
+      items:
+        - desc: Honored to be awarded Google Research Scholar Award.
+        - desc: 5 long papers are accepted to ACL main and 2 papers are accepted to finding. Check out our new [ACL 2021 papers](http://web.cs.ucla.edu/publications/). Details will be released soon.
+        - desc: check out our new ICML paper on [constraint mining](http://web.cs.ucla.edu/bibliography/meng2020integer/).
+    - date: Mar, 2021
+      items:
+        - desc: 5 long papers and 2 short paeer are acepted to NAACL. Check out our new [NAACL 21 papers](http://web.cs.ucla.edu/publications/).
+    - date: Feb, 2021
+      items:
+        - desc: Honored to be awarded [Sloan Research Fellowship](https://newsroom.ucla.edu/stories/four-ucla-faculty-members-awarded-2021-sloan-research-fellowships) for our work on fairness, robustness, inclusion in Human Language Technology. The award belongs to my students and collaborators.
+        - desc: Check out our new [EACL 21 paper](http://web.cs.ucla.edu/bibliography/huang2021generating/) on paraphrase generation.
+    - date: Jan, 2021
+      items:
+        - desc: I will co-teach a tutorial on Robustness and Adversarial Examples in NLP at EMNLP 2021
+        - desc: I co-organize an ICLR 2021 workshop on robust and reliable ML. See [CFP](https://sites.google.com/connect.hku.hk/robustML-2021/home?authuser=0).
+        - desc: I co-organize a NAACL 2021 workshop on Trustworthy NLP. See [CFP](https://trustnlpworkshop.github.io/)
+        - desc: Welcome [Sunipa Dev](https://sunipa.github.io/) to join our group as a postdoctoral fellow.
+    - date: Nov, 2020
+      items:
+        - desc: See [our new papers](http://kwchang.net/blog/emnlp2020/) at EMNLP 2020.
+    - date: Sep, 2020
+      items:
+        - desc: Welcome Fan Yin and Wade Yin to join our group as a PhD student.
+    - date: Apr, 2020
+      items:
+        - desc: We will present [9 papers](publications) at ACL 2020. See [this news](http://kwchang.net/blog/acl2020/) for details.
+    - date: Jan, 2020
+      items:
+        - desc: Congrats Jieyu Zhao on winning the [Microsoft PhD fellowship](https://www.microsoft.com/en-us/research/blog/2020-ada-lovelace-and-phd-fellowships-help-recipients-achieve-broad-research-and-educational-goals).
+    - date: Dec, 2019
+      items:
+        - desc: Check out our [ICLR paper](http://web.cs.ucla.edu/bibliography/shi2020robustness) on verifying Transformer. We also discuss how to identify words that are important to predictions.
+        - desc: Jieyu Zhao was invited to a panel discussion hosted by [UN Woman](https://en.wikipedia.org/wiki/UN_Women) on Increasing Women's Participation in a Digital World.
+    - date: Nov, 2019
+      items:
+        - desc: We will present the following papers in CoNLL/EMNLP 2019
+        - desc: Interested in fairness in NLP? Check out 1) our tutorial; 2) [bias in NLG](bit.ly/2WDPHVk); 3) [bias in language with grammatical gender](bit.ly/2oI5Mgf).
+        - desc: Interested in robustness in NLP? Check out 4) [retrofit ELMo with paraphrases](http://arxiv.org/abs/1909.09700) 5) [defense against adversarial attacks](http://arxiv.org/abs/1909.03084)
+        - desc: "Interested in cross-lingual transfer? Check out 6) [learning language-agnostic representations for parsing](https://arxiv.org/abs/1909.09265) 7) [injecting corpus-level constraints for cross-lingual parser](https://arxiv.org/abs/1909.01482)"
+        - desc: "Interested in building efficient NLP models? Check out 8) [efficent text classifier](https://arxiv.org/abs/1808.08270) 9) another recent TACL paper: [ELMo with continuous outputs](https://arxiv.org/abs/1902.11269)"
+        - desc: Also, check out 10) [bilingual dictionary representation]() 11) [demo about visualizing news trends](https://arxiv.org/abs/1909.05449)
+    - date: Oct, 2019
+      items:
+        - desc: We will give a tutorial on transferable representation learning at AAAI 2020
+        - desc: I'll serve as an area chair for ICML 2020 and SPC for IJCAI.
+    - date: Jul, 2019
+      items:
+        - desc: Our [paper](https://arxiv.org/abs/1902.11269) on Efficient Contextual Representation Learning is accepted by TACL
+        - desc: Our [paper](https://arxiv.org/abs/1811.08489) on Gender Bias in Deep Image Representations is accepted by ICCV
+        - desc: Wasi presents his paper on [context attentive document ranking and query suggestion](bibliography/ahmad2019context) at SIGIR
+    - date: May, 2019
+      items:
+        - desc: Our papers on [gender bias litearture survey](bibliography/lsun2019debiasing) and [Few-short represetnation learning](bibliography/hu2019fewshot) are accepted by ACL
+        - desc: Thank Taboola for renewing their support for our research
+    - date: Feb, 2019
+      items:
+        - desc: Our papers on [Cross-lingual transfer for parsing](bibliography/ahmad2019difficulties) and [Bias in Contextualized Word Embedding](bibliography/zhao2019gender) are accepted by NAACL
+        - desc: We (Margaret Mitchell, Vicente Ordonez, and I) will give a tutorial on ``Bias and Fairness in Natural Language Processing'' at EMNLP
+    - date: Dec, 2018
+      items:
+        - desc: I will be the area chair for NAACL 2019, AKBC 2019 and ACL 2019, AAAI 2020.
+    - date: Oct, 2018
+      items:
+        - desc: I won the best reviewer award at EMNLP 2018
+    - date: Sep, 2018
+      items:
+        - desc: Welcome Tao Meng and Kuan-Hao Huang to join my group!
+    - date: Sep, 2018
+      items:
+        - desc: Jieyu is invited to give a talk at Grace Hopper Celebration 2018
+        - desc: Jieyu is a special guess to talk about gender bias in coreference resolution at [NLP highlight podcast](https://soundcloud.com/nlp-highlights/66-gender-bias-in-coreference-resolution-evaluation-and-debiasing-methods-with-jieyu-zhao)
+        - desc: Our papers on [Gender-Neutral Embedding](zhao2018learning) and [Adversarial attack](alzanto2018generating) are accepted by EMNLP
+    - date: Jun, 2018
+      items:
+        - desc: I have been named a 2018 Okawa Foundation Research Grant recipient
+        - desc: Thank Taboola for providing a gift fund to support our research
+    - date: Apr, 2018
+      items:
+        - desc: "Rizwan's paper on [modeling language with named entities] is accepted by ACL"
+        - desc: Congrats Wasi Ahmad on his SIGIR paper and Muhao Chen on his IJCAI paper
+        - desc: Congrats Jieyu Zhao on winning the best poster award at SoCal NLP Symposium 2018
+        - desc: Check out our new NAACL paper on Gender Bias in Coreference Resolution
+        - desc: Check out our new NAACL paper on LearningWord Embeddings for Low-resource Languages by PU Learning
+    - date: Jan, 2018
+      items:
+        - desc: I will give a tutorial on Quantifying and Reducing Gender Stereotypes in Word Embeddings at FAT 18
+        - desc: Check out our paper accepted by ICLR 2018
+        - desc: I give a tutorial at TAAI 17'
+    - date: Jul, 2017
+      items:
+        - desc: Our paper on reducing gender bias won the best long paper award at EMNLP 17
+        - desc: Our paper on multi-sense embedding won the best paper award at Rep4NLP workshop at ACL 17.
+        - desc: I join the UCLA-CS. I've enjoyed every moment at UVa, where the department and my collaborators gave me enormous support to start my career. I'm excited about the next adventure and looking forward to collaborating with excellent folks in SoCal.
+    - date: May, 2017
+      items:
+        - desc: Check out our workshop on Structured Prediction for NLP at EMNLP.
+        - desc: Check out our workshop on Deep Structured Prediction at ICML 2017
+    - date: Mar, 2017
+      items:
+        - desc: "My proposal, CRII: Learning Structured Prediction Models with Auxiliary Supervision has been funded by NSF"
+        - desc: Congratulate Wasi Ahmad on being awarded the William L Ballard Jr. Fellowship for Spring of 2017.
+    - date: Nov, 2016
+      items:
+        - desc: I will give an invited talk at NIPS 16 Workshop on Learning in High Dimensions with Structure and VW tutorial at Machine Learning System Workshop
+        - desc: "Our paper is accepted by AAAI 17: Structured Prediction with Test-time Budget Constraints"
+        - desc: Thanks all participants for a successful workshop. See you in the Second Workshop on Structured Prediction for NLP at EMNLP 2017 in Copenhagen!
+    - date: Aug, 2016
+      items:
+        - desc: Our paper about debiasing word embeddings is reported by NPR and MIT Technology Review.
+        - desc: Two papers are accepted by NIPS! Credit assignment compiler for L2S; Debiasing word embeddings.
+        - desc: I join the Computer Science Department at University of Virginia as an Assistant Professor!
+        - desc: "One paper is accepted by EMNLP: Learning from Explicit and Implicit Supervision Jointly For Algebra Word Problems"
+    - date: Feb, 2016
+      items:
+        - desc: Checkout our tutorial on Structured Prediction at AAAI16.

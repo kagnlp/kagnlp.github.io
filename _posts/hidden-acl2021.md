@@ -1,0 +1,59 @@
+---
+title: UCLA-NLP (Chang's and PLUS lab) @ ACL 2021
+layout: post
+css: "/css/academicons.css"
+tag: [conference]
+---
+
+At UCLA-NLP, our mission is to develop reliable, fair, accountable, robust natural language understanding and generation technology to benefit everyone.
+
+Please see our recent papers at
+
+- [Peng's Language Understanding & Synthesis (PLUS) Lab](https://vnpeng.net/publications/)
+- [Chang's NLP lab](http://web.cs.ucla.edu/publications/)
+
+In the following, we will highlight our reseach papers at [NAACL 2021](https://2021.naacl.org/) on the following topics:
+
+- [Fairness and Social NLP](#fair)
+- [Language Generation](#nlg)
+- [(Multi-Modal) Represenation Learning](#rep)
+- [Model Evaluation and Interpretation](#eval)
+- [Event Extraction](#ie)
+
+<hr id = "fair" class="thick">
+### Fairness and Social NLP
+
+<div style="display:none">
+{% cite sheng2021societal zhao2021ethical Pruksachatkun2021robustness %}
+</div>
+{% bibliography --cited --template publications-details %}
+
+<hr id = "crosslingual" class="thick">
+### Cross-Lingual Transfer 
+<div style="display:none">
+{% cite ahmad2021syntax %}
+</div>
+{% bibliography --cited --template publications-details %}
+
+<hr id = "eval" class="thick">
+### NLP Model Evaluation and Interpretation
+
+<div style="display:none">
+{% cite zhang2021double parvez2021evaluating%}
+</div>
+{% bibliography --cited --template publications-details %}
+<hr id = "crosslingual" class="thick">
+
+<hr id = "rep" class="thick">
+### (Multi-Modal) Representation Learning
+<div style="display:none">
+{% cite li2021unsupervised huang2021disentangling ahmad2021unified %}
+</div>
+{% bibliography --cited --template publications-details %}
+
+<hr id = "ie" class="thick">
+### Event Extraction
+<div style="display:none">
+{% cite ma2021eventplus huang2021document %}
+</div>
+{% bibliography --file plusnaacl.bib --cited --template publications-details %}

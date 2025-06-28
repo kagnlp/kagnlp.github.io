@@ -1,0 +1,32 @@
+# Ignore the build output folder
+_site/
+
+# Ignore dependency directories
+.bundle/
+vendor/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore logs and temp files
+*.log
+tmp/
+.sass-cache/
+
+# Ignore node modules if you use Node for assets
+node_modules/
+
+# Ignore Jekyll metadata files
+.jekyll-metadata
+
+# Ignore generated Gemfile.lock if you want
+# (optional, usually committed)
+Gemfile.lock
+.tweet-cache/

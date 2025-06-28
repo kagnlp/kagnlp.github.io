@@ -1,0 +1,22 @@
+- group : Core Faculty
+  people :
+    - name : Kai-Wei Chang
+      github: kaiweichang
+      url: "http://kwchang.net/"
+      title : Assistant Professor
+      description: Fairness and Robustness in NLP, ML in NLP
+    - name : Plus Lab -- Nanyun (Violet) Peng
+      description: Natural Language Generation, Information Extraction
+      github: VioletPeng
+      url: https://pluslabnlp.github.io
+- group : Affliated Faculty
+  people :
+    - name : Wei Wang
+      url : "http://web.cs.ucla.edu/~weiwang/"
+      scholar: UedS9LQAAAAJ
+    - name : Cho-Jui Hsieh
+      url : "http://web.cs.ucla.edu/~chohsieh/"
+      scholar: Wy89g4IAAAAJ
+    - name: Yizhou Sun
+      scholar: TQgOjK0AAAAJ
+      url: "http://web.cs.ucla.edu/~yzsun/"
