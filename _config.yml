@@ -17,7 +17,7 @@ baseurl: ""
 title: KAGNLP
 
 # Short description of your site
-description: Knowledge Augmented Generation
+description: Knowledge, Agent and Generation 
 
 # --- Navigation bar options --- #
 
@@ -58,7 +58,7 @@ navbar-links:
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: KAGNLP
-  email: "kw@kwchang.net"
+  email: "rizwan@ucla.com"
   # facebook: yourname  # eg. daattali
   github: kagnlp    # eg. daattali
   # twitter: kaiwei_chang   # eg. daattali
