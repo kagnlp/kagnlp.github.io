@@ -3,13 +3,13 @@ title:
 layout: page
 ---
 
-<!-- <div class="jumbotron profile" id="main-profile">
+<div class="jumbotron profile" id="main-profile">
 <div class="container">
 <div class="col-md-3" align="right" markdown="1">
 ![image-title-here](img/myphoto.jpg){:class="avatar-img"}
 </div>
 <div class="col-md-9">
-<h2 align="center"> Kai-Wei Chang </h2>
+<h2 align="center"> Md Rizwan Parvez </h2>
 <div class="col-md-7 col-md-offset-1" markdown="1" id="main-profile">
   <ul>
   <li><a href="">
@@ -17,18 +17,20 @@ layout: page
     <i class="fa fa-circle fa-stack-2x"></i>
     <i class="fa fa-university fa-stack-1x fa-inverse"></i>
   </span>
-  </a> <span id="smallbox"> Associate Professor @ UCLA-CS <br> Amazon Scholar at @ Alexa AI </span></li>
+  </a> <span id="smallbox"> Scientist @ QCRI 
+  <!-- <br> Amazon Scholar at @ Alexa AI  -->
+  </span></li>
   <li><a href="mailto:{{ site.author.email }}" title="Email me">
   <span class="fa-stack fa-lg">
     <i class="fa fa-circle fa-stack-2x"></i>
     <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
   </span>
-  </a> kw AT kwchang DOT net </li>
+  </a> rizwan AT ucla DOT edu </li>
   <li><a href="">
   <span class="fa-stack fa-lg">
     <i class="fa fa-circle fa-stack-2x"></i>
     <i class="fa fa-location-arrow fa-stack-1x fa-inverse"></i>
-  </span> </a> UCLA Eng VI Rm 374</li>
+  </span> </a> </li>
   <li><a href="">
   <span class="fa-stack fa-lg">
     <i class="fa fa-circle fa-stack-2x"></i>
@@ -42,7 +44,7 @@ layout: page
   <span class="fa-stack fa-lg">
     <i class="fa fa-circle fa-stack-2x"></i>
     <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-  </span> Google Scholar </a><a href="https://scholar.google.com/citations?user=fqDBtzYAAAAJ&hl=en&oi=ao#d=gsc_md_fol">
+  </span> Google Scholar </a><a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">
   <i class="fa fa-rss"></i>
   </a>
   </li>
@@ -52,13 +54,13 @@ layout: page
     <i class="fa fa-linkedin-square  fa-stack-1x fa-inverse"></i>
   </span> LinkedIn</a>
   </li>
-  <li><a href="https://www.linkedin.com/in/kai-wei-chang-41239040/" markdown="1">
+  <li><a href="https://www.linkedin.com/in/rizwanparvez" markdown="1">
   <span class="fa-stack fa-lg">
     <i class="fa fa-circle fa-stack-2x"></i>
     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
   </span> Twitter</a>
   </li>
- <li><a href="http://web.cs.ucla.edu/documents/pdf/cv.pdf" markdown="1">
+ <li><a href="https://rizwan09.github.io/files/cv_md_rizwan_parvez.pdf" markdown="1">
   <span class="fa-stack fa-lg">
     <i class="fa fa-circle fa-stack-2x"></i>
     <i class="fa fa-id-badge fa-stack-1x fa-inverse"></i>
@@ -69,7 +71,7 @@ layout: page
 </div>
 </div>
 </div>
-</div> -->
+</div>
 <div class="row">
 
 <div class="pre-scrollable" markdown="1" style="height:450px; max-height:500px;">

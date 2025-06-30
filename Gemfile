@@ -9,6 +9,6 @@ gem 'jekyll-scholar', group: :jekyll_plugins
 gem 'jekyll-twitter-plugin', group: :jekyll_plugins
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
-gem "fiddle"    # for the fiddle warning
-gem "ostruct"   # for the ostruct warning
+# gem "fiddle"    # for the fiddle warning
+# gem "ostruct"   # for the ostruct warning
 

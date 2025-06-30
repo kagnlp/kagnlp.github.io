@@ -2,4 +2,5 @@
 
 Windows Ruby: https://rubyinstaller.org/downloads/
 gem install bundler jekyll
-bundle exec jekyll serve
+bundle install
+bundle exec jekyll serve --incremental

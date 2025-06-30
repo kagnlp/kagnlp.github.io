@@ -1,107 +1,45 @@
 - group : Faculty
   people :
-    - name : Kai-Wei Chang
-      github: kaiweichang
-      url: "http://kwchang.net/"
-      title : Assistant Professor
-      description: Director
+    - name : Md. Rizwan Parvez
+      github: rizwan09
+      url: "https://rizwan09.github.io/"
+      title : Scientist
+      description: Lead
 - group : PhD and Postdoc Researchers
   people :
     - name : Yiwei Wang 
       url : "https://wangywust.github.io/"
       github: wangywUST
       description: Postdoc->AP@UCMerced
-    - name : Wade (Da) Yin
-      url : "https://wadeyin9712.github.io/" 
-      github: WadeYin9712
-      description: Geo-Diverse NLP
-    - name : Fan Yin
-      github: fanyin3639
-      url : https://fanyin3639.github.io
-      description: Explainable NLP
-    - name : Christina Chance
-      github: christinachance
-      url: "https://christinachance.github.io/"
-      description: NLP Fairness
-    - name : Cheng-Fu Yang
-      github: joeyy5588
-      url: "https://joeyy5588.github.io/"
-      description: Embodied NLP
-    - name : Amita Kamath
-      github: amitakamath
-      url: "https://amitakamath.github.io/"
-      description: Vision-and-Language
-    - name : Di Wu
-      github: xiaowu0162
-      url: "https://xiaowu0162.github.io"
-      description: Keyphrase Generation
-    - name : Anaelia Ovalle
-      github: anaeliaovalle
-      url: "https://anaeliaovalle.github.io/"
-      description: "Inclusive NLP"
-    - name : Elaine Wan
-      url: "https://www.linkedin.com/in/elaine-yixin-wan-8032b8136/"
-      github : elainew728
-      description: "NLP Fairness" 
-    - name : Yining Hong
-      github: evelinehong
-      url: https://evelinehong.github.io/
-      description: 3D-LLM (Co-Advise w/ Wu)
-    - name : Tanmay Parekh
-      github: TanmayParekh
-      url: "https://tanmayparekh.github.io/"
-      description: "Co-Advise w/ Peng"
-    - name : Arjun Subramonian
-      github: ArjunSubramonian
-      url: "https://arjunsubramonian.github.io/"
-      description: "Co-Advise w/ Sun"
-    - name : Hritik Bansal
-      url: "https://sites.google.com/view/hbansal"
-      github : Hritikbansal
-      description: "Co-Advise w/ Grover"
-    - name : Xueqing Xu 
-      url: "https://shirley-wu.github.io/"
-      github: shirley-wu
-      description: "Co-Advise w/ Peng"
-    - name : Zongyu Lin
-      url :  https://rafa-zy.github.io/
-      github: Rafa-zy
-      description: "Co-Advise w/ Sun"
+    - name : Yiwei Wang 
+      url : "https://wangywust.github.io/"
+      github: wangywUST
+      description: Postdoc->AP@UCMerced
+    - name : Yiwei Wang 
+      url : "https://wangywust.github.io/"
+      github: wangywUST
+      description: Postdoc->AP@UCMerced
+
 - group: Undergraduate and Master Researchers
   people:
-    - name : Jingnong Qu
-      github : andrewqu2000
+    - name : Mahir Labib Dihan
+      github : mahirlabibdihan
+      url : "https://mahirlabibdihan.github.io/"
+
 - group: PhD/Postdoc Alumni
-  industry/research lab:
+  industry:
     - name : Masoud Monajatipoor
       github: masoud-monajati
       url: "https://www.linkedin.com/in/masoudmonajatipoor"
       description: "PhD 2024 (Co-Adivsed with Yang) -> Optum Labs"
-    - name : Harold (Liunian) Li
-      url: "https://liunian-harold-li.github.io/"
-      github: Harold-Lee-PKU
-      description: PhD 2024 -> OpenAI
-      type: industry
-    - name : Tao Meng
-      url: "https://mtsomethree.github.io/" 
-      github: MtSomeThree
-      description: PhD 2024 -> Zoom
-      type: industry
-    - name : Wasi Uddin Ahmad 
-      url : "https://wasiahmad.github.io/"
-      github: wasiahmad
-      description: PhD 2021 -> Amazon 
-      type: industry
-    - name : Sunipa Dev
-      url : "https://sunipa.github.io/"
-      github: sunipa
-      description: PostDoc 2021 -> Google Research
-      type: industry
-    - name : Dat Duong
-      url: "https://www.linkedin.com/in/dat-duong-29588948/"
-      github: datduong
-      description: PhD 2020 (Co-advised with Eleazar Eskin) -> NIH
-      type: industry
+    - name : Masoud Monajatipoor
+      github: masoud-monajati
+      url: "https://www.linkedin.com/in/masoudmonajatipoor"
+      description: "PhD 2024 (Co-Adivsed with Yang) -> Optum Labs"
+    - name : Masoud Monajatipoor
+      github: masoud-monajati
+      url: "https://www.linkedin.com/in/masoudmonajatipoor"
+      description: "PhD 2024 (Co-Adivsed with Yang) -> Optum Labs"
  
   academy:  
     - name : Pan Lu
@@ -109,35 +47,17 @@
       url: "https://lupantech.github.io/"
       description: PhD 2024 (Co-advised with Songchun Zhu) -> Postdoc at Stanford
       type: academy
-    - name : Kareem Ahmed
-      url: "https://www.linkedin.com/in/kareem-yousrii/"
-      github: KareemYousrii
-      description: PhD 2024 (Co-Advise w/ Broeck)
+    - name : Pan Lu
+      github: lupantech
+      url: "https://lupantech.github.io/"
+      description: PhD 2024 (Co-advised with Songchun Zhu) -> Postdoc at Stanford
       type: academy
-    - name : Kuan-Hao Huang
-      url : "https://khhuang.me/"
-      github: ej0cl6
-      description: PhD 2023 -> Postdoc at UIUC -> Assistant Professor at TAMU
+    - name : Pan Lu
+      github: lupantech
+      url: "https://lupantech.github.io/"
+      description: PhD 2024 (Co-advised with Songchun Zhu) -> Postdoc at Stanford
       type: academy
-    - name: Md. Rizwan Parvez 
-      github: rizwan09
-      url: "https://sites.google.com/site/parvezmdrizwan/" 
-      description: PhD 2023 -> Bosch Research -> Qatar Computing Research Institute
-      type: academy
-    - name: Ziniu Hu
-      url: https://acbull.github.io/
-      description: PhD 2023 (co-advised with Yizhou Sun) -> Postdoc at Caltech -> Assistnat Professor at RPI 
-      type: academy
-    - name : Jieyu Zhao 
-      url : "http://jyzhao.net/"
-      github: JieyuZhao
-      description: PhD 2022 -> Postdoc at UMD -> Assistant Professor at USC
-      type: academy
-    - name: Muhao Chen 
-      url: https://muhaochen.github.io
-      githubid: muhaochen
-      description: PhD 2019 (informally co-advised with Carlo Zaniolo and Wei Wang)-> Postdoc at UPenn -> Assitant Professor at UC Davis 
-      type: academy
+    
  
 - group: Other Alumni
   people:
@@ -145,40 +65,7 @@
       url: "https://xxxiaol.github.io/"
       github: xxxiaol
       description: "PhD Student at PKU"
-    - name : Nikil Selvam
-      description: PhD Student at Stanford
-    - name : Shanxiu He
-      description: PhD Student at UCSB
-    - name : Weijia Shi
-      description: PhD Student at UW
-    - name : Zhubo Deng
-    - name : Yihe Deng
-      description: PhD Student at UCLA
-    - name : Jesse Cai
-    - name : Eleanor Jiang
-      description: PhD Student at ETH
-    - name : Quanyu Long
-      description: PhD Student at NTU
-    - name : Shengyu Jia
-    - name : Zhenxin Xiao
-    - name : Pei Zhou
-      description: PhD Student at USC
-    - name : Siyu Wang
-    - name : Hanwen Jiang
-      description: PhD student at UT-Austin
-    - name : Haoxiang Zhang
-    - name : Chen Xia
-    - name : Chao Jiang
-      description: PhD student at GaTech
-    - name : Puchin Chen 
-      description: Google
-    - name : Peter Kim
-    - name : Evelyn Chen 
-      description: Amazon 
-    - name : Hsin-Yu Fan Chiang
-    - name : Daphne Chiou
-      description: Google
-    - name : Zhechao Huang
-      description: Master at MIT
-    - name : Sudharsan Krishnaswamy
-    - name : Di Qu
+    - name : Xiao Liu
+      url: "https://xxxiaol.github.io/"
+      github: xxxiaol
+      description: "PhD Student at PKU"

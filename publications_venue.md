@@ -15,7 +15,7 @@ TACL papers are eligible for presenting at top NLP conferences.
 <div style="text-align: left">
 <a target="_blank" href="https://scholar.google.com/citations?user=fqDBtzYAAAAJ&hl=en">
 <h3 id="academic">My Google Scholar 
-<span class="ai ai-google-scholar ai-lg" style="color:#3c58ad" aria-hidden="true">
+<span class="ai ai-google-scholar ai-lg" style="color:#8B0000" aria-hidden="true">
 </span></h3></a> 
 <h3><a href="{{site.baseurl}}/bibliography/uclanlp_clean.bib">Download the bibfile</a></h3>
 

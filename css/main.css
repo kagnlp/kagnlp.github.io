@@ -12,36 +12,34 @@ body {
 
 p a {
   /* text-decoration: underline */
-  color: #3c58ad; /* #008AFF; */
+  color: #8B0000; /* #B22222; */
 }
 
 .nopdf {
   /* text-decoration: underline */
-  color: #9da0d8; /* #008AFF; */
+  color: #9da0d8; /* #B22222; */
 }
-
-
 h1 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 550;
-  color: #3c58ad; /*Blue rgb(0, 180, 161);   the green #00B4A1 */
+  color: #8B0000; /*Blue rgb(0, 180, 161);   the green #00B4A1 */
 }
 h2 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 550;
-  color: #3c58ad; /*Blue rgb(0, 180, 161);   the green #00B4A1 */
+  color: #8B0000; /*Blue rgb(0, 180, 161);   the green #00B4A1 */
 }
 h3,h4,h5,h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 550;
-  color: #3c58ad; /* Blue rgb(0, 180, 161);*/
+  color: #8B0000; /* Blue rgb(0, 180, 161);*/
 }
 a {
-  color: #3c58ad; /* Blue  #008AFF; */
+  color: #8B0000; /* Blue  #B22222; */
 }
 a:hover,
 a:focus {
-  color: #3c58ad; /*#0085a1;*/
+  color: #8B0000; /*#0085a1;*/
 }
 blockquote {
   color: #808080;
@@ -56,7 +54,7 @@ hr.small {
   border-width: 4px;
   border-color: inherit;
   border-radius: 3px;
-  color: #3c58ad;
+  color: #8B0000;
 }
  .thick{
     height:10px;
@@ -83,12 +81,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #3c58ad; /*#0085a1;*/
+  background: #8B0000; /*#0085a1;*/
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #3c58ad; /* #0085a1;*/
+  background: #8B0000; /* #0085a1;*/
 }
 img::selection {
   color: white;
@@ -390,14 +388,14 @@ footer .theme-by a {
 }
 
 .blog-tags a {
-  color: #008AFF;
+  color: #B22222;
   text-decoration: none;
   padding: 0px 5px;
 }
 
 .blog-tags a:hover {
   border-radius: 2px;
-  color: #008AFF;
+  color: #B22222;
   background-color: #CCC;
 }
 
@@ -748,18 +746,18 @@ UL UL {
     display: inline-block;
     padding: 5px 0;
     margin: 0 0 5px 0;
-    color: #1670c5;
+    color: #8B0000;
     width: 300px;
     text-align: center;
     background-color: #fff;
-    border: 1px solid #55acee;
+    border: 1px solid #B22222;
     border-radius: 100px;
     outline: 0;
     cursor: pointer;
 }
 
 .see-more:hover {
-    background-color: #55acee;
+    background-color: #B22222;
     color: #38a687;
     text-decoration: none;
 }
@@ -771,7 +769,7 @@ a.my_details {
     font-size: 60%;
     margin-right: 5pt;
     padding: .15em 1.4em;
-    color: #3c58ad;
+    color: #8B0000;
     border-width: 1pt;
     border-style: solid;
     font-weight: 700;
@@ -784,7 +782,7 @@ a.my_botton {
     font-size: 80%;
     margin-right: 5pt;
     padding: .15em 1.4em;
-    color: #3c58ad;
+    color: #8B0000;
     border-width: 1pt;
     border-style: solid;
     font-weight: 700;
@@ -797,7 +795,7 @@ a.my_code {
     font-size: 60%;
     margin-right: 5pt;
     padding: .15em 1.4em;
-    color: #3c58ad;
+    color: #8B0000;
     border-width: 1pt;
     border-style: solid;
     font-weight: 700;
@@ -805,7 +803,7 @@ a.my_code {
 
 a.my_keynote {
     border: 1pt;
-    background-color: #3c58ad;
+    background-color: #8B0000;
     border-radius: 50pt;
     font-size: 60%;
     margin-right: 5pt;

@@ -51,26 +51,26 @@
   award :
     - title : Outstanding Paper Award
       venue : ACL 2023
-      desc : "The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks, Nikil Roashan Selvam, Sunipa Dev, Daniel Khashabi, Tushar Khot, and Kai-Wei Chang"
+      desc : "The Tail Wagging the Dog: Dataset Construction Biases of Social Bias Benchmarks, Nikil Roashan Selvam, Sunipa Dev, Daniel Khashabi, Tushar Khot, and Md. Rizwan Parvez"
     - title : Area Chair's Award
       venue : ACL 2023
-      desc : "ParaAMR: A Large-Scale Syntactically Diverse Paraphrase Dataset by AMR Back-Translation, Kuan-Hao Huang, Varun Iyer, I.-Hung Hsu, Anoop Kumar, Kai-Wei Chang, and Aram Galstyan"
+      desc : "ParaAMR: A Large-Scale Syntactically Diverse Paraphrase Dataset by AMR Back-Translation, Kuan-Hao Huang, Varun Iyer, I.-Hung Hsu, Anoop Kumar, Md. Rizwan Parvez, and Aram Galstyan"
       url: "/bibliography/huang2023paraarm/"
     - title : Best Paper Award
       venue : ICLR workshop on Reliable and Trustworthy Large Scale Machine Learning, 2023.
-      desc : "CleanCLIP: Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning, Hritik Bansal, Nishad Singhi, Yu Yang, Fan Yin, Aditya Grover, and Kai-Wei Chang"
+      desc : "CleanCLIP: Mitigating Data Poisoning Attacks in Multimodal Contrastive Learning, Hritik Bansal, Nishad Singhi, Yu Yang, Fan Yin, Aditya Grover, and Md. Rizwan Parvez"
       url : "/bibliography/bansal2023cleanclip/"
     - title : Best Paper Finalist
       venue : CVPR 2022
-      desc : "Grounded Language-Image Pre-training, Liunian Harold Li, Pengchuan Zhang, Haotian Zhang, Jianwei Yang, Chunyuan Li, Yiwu Zhong, Lijuan Wang, Lu Yuan, Lei Zhang, Jenq-Neng Hwang, Kai-Wei Chang, and Jianfeng Gao"
+      desc : "Grounded Language-Image Pre-training, Liunian Harold Li, Pengchuan Zhang, Haotian Zhang, Jianwei Yang, Chunyuan Li, Yiwu Zhong, Lijuan Wang, Lu Yuan, Lei Zhang, Jenq-Neng Hwang, Md. Rizwan Parvez, and Jianfeng Gao"
       url : "/bibliography/li2022grounded/" 
     - title : Best Long Paper Award 
       venue: EMNLP 2017
-      desc : "Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints, Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang" 
+      desc : "Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints, Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Md. Rizwan Parvez" 
       url : "/bibliography/zhao2017men/" 
     - title : Best Paper Award
       venue : KDD 2010
-      desc : "Large Linear Classification When Data Cannot Fit In Memory, Hsiang-Fu Yu, Cho-Jui Hsieh, Kai-Wei Chang, and Chih-Jen Lin"
+      desc : "Large Linear Classification When Data Cannot Fit In Memory, Hsiang-Fu Yu, Cho-Jui Hsieh, Md. Rizwan Parvez, and Chih-Jen Lin"
       url : "/bibliography/yu2010large/"
     - title : Best Paper Award
       venue : ACL RepL4NLP Workshop 2017

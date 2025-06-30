@@ -6,7 +6,7 @@ css: "/css/academicons.css"
 ---
 
 
-Instructors: [Kai-Wei Chang](http://kwchang.net), [Vicente Ordonez](http://vicenteordonez.com), [Margaret Mitchell](http://www.m-mitchell.com), [Vinodkumar Prabhakaran](https://www.cs.stanford.edu/~vinod)
+Instructors: [Md. Rizwan Parvez](http://kwchang.net), [Vicente Ordonez](http://vicenteordonez.com), [Margaret Mitchell](http://www.m-mitchell.com), [Vinodkumar Prabhakaran](https://www.cs.stanford.edu/~vinod)
 
 Venue: [EMNLP 2019](https://www.emnlp-ijcnlp2019.org/program/tutorials/#t4-bias-and-fairness-in-natural-language-processing)
 
@@ -27,7 +27,7 @@ Natural language processing techniques play important roles in our daily life. D
 
 ### Instructors' bio:
 
-- [Kai-Wei Chang](http://kwchang.net) is an assistant professor in the Department of Computer Science at the University of California Los Angeles.  His research interests include designing robust machine learning methods for large and complex data and building language processing models for social good applications.
+- [Md. Rizwan Parvez](http://kwchang.net) is an assistant professor in the Department of Computer Science at the University of California Los Angeles.  His research interests include designing robust machine learning methods for large and complex data and building language processing models for social good applications.
 His awards include the EMNLP Best Long Paper Award (2017),  the KDD Best Paper Award (2010), and the Okawa Research Grant Award (2018). Kai-Wei has given tutorials at NAACL 15, AAAI 16 on different research topics, and gave a tutorial about gender stereotypes in word embeddings at FAT 18. 
 Additional information is available at http://kwchang.net.
 
