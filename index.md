@@ -40,7 +40,7 @@ layout: page
 </div>
 <div class="col-md-4" markdown="1" id="main-profile">
 <ul>
- <li><a href="https://scholar.google.com/citations?hl=en&user=fqDBtzYAAAAJ" markdown="1">
+ <li><a href="https://scholar.google.com/citations?hl=en&user=KhC8rtcAAAAJ" markdown="1">
   <span class="fa-stack fa-lg">
     <i class="fa fa-circle fa-stack-2x"></i>
     <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
