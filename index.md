@@ -3,237 +3,641 @@ title:
 layout: page
 ---
 
-<div class="jumbotron profile" id="main-profile">
-<div class="container">
-<div class="col-md-3" align="right" markdown="1">
-![image-title-here](img/myphoto.jpg){:class="avatar-img"}
-</div>
-<div class="col-md-9">
-<h2 align="center"> Md Rizwan Parvez </h2>
-<div class="col-md-7 col-md-offset-1" markdown="1" id="main-profile">
-  <ul>
-  <li><a href="">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-university fa-stack-1x fa-inverse"></i>
-  </span>
-  </a> <span id="smallbox"> Scientist @ QCRI 
-  <!-- <br> Amazon Scholar at @ Alexa AI  -->
-  </span></li>
-  <li><a href="mailto:{{ site.author.email }}" title="Email me">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-  </span>
-  </a> rizwan AT ucla DOT edu </li>
-  <li><a href="">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-location-arrow fa-stack-1x fa-inverse"></i>
-  </span> </a> </li>
-  <li><a href="">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-hashtag fa-stack-1x fa-inverse"></i>
-  </span> </a> <span id="smallbox">Natural Language Processing<br> Machine Learning</span></li>
-  </ul>
-</div>
-<div class="col-md-4" markdown="1" id="main-profile">
-<ul>
- <li><a href="https://scholar.google.com/citations?hl=en&user=KhC8rtcAAAAJ" markdown="1">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
-  </span> Google Scholar </a><a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">
-  <i class="fa fa-rss"></i>
-  </a>
-  </li>
-  <li><a href="https://www.youtube.com/channel/UCN7nI4vDPLhnDVTXse5Vjyw" markdown="1">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-linkedin-square  fa-stack-1x fa-inverse"></i>
-  </span> LinkedIn</a>
-  </li>
-  <li><a href="https://www.linkedin.com/in/rizwanparvez" markdown="1">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-  </span> Twitter</a>
-  </li>
- <li><a href="https://rizwan09.github.io/files/cv_md_rizwan_parvez.pdf" markdown="1">
-  <span class="fa-stack fa-lg">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-id-badge fa-stack-1x fa-inverse"></i>
-  </span> Curriculum Vitae</a>
-  </li>
-
-</ul>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-
-<div class="pre-scrollable" markdown="1" style="height:300px; max-height:300px;">
-### <a href="members"><i class="fa fa-bullhorn"></i>  Short Bio:</a> 
-I am a Scientist at Qatar Computing Research Institute. I have completeded my Ph.D. from [CS@UCLA](http://www.cs.ucla.edu/) and was advised by [Prof. Kai-Wei Chang](http://web.cs.ucla.edu/~kwchang/). My research interests span the areas of information retrieval, natural and programming language processing (e.g., English, Python). Previously I was a Research Scientist at Bosch Research, Sunnyvale, USA (Aug 2022 to Dec 2023). During my Ph.D., I got the opportunity to work as a research intern at Google Reserach (Summer 2021), Facebook AI Research (Summer 2020), Salesforce Research (Summer 2019), and Microsoft AI & Research (Summer 2018). I have received my Bachelor's in Computer Science and Engineering from the [CSE@BUET](http://cse.buet.ac.bd/), in September 2015.
-
-> Join us! We are looking for prospective students and postdocs, please read [this](application/).
-
+<div class="hero-section">
+  <div class="hero-content">
+    <div class="profile-container">
+      <div class="profile-image">
+        <img src="img/myphoto.jpg" alt="Md Rizwan Parvez" class="profile-avatar">
+        <div class="status-indicator"></div>
+      </div>
+      <div class="profile-info">
+        <h1 class="name-title">Md Rizwan Parvez</h1>
+        <p class="role-subtitle">Scientist @ QCRI</p>
+        <div class="research-tags">
+          <span class="tag">Natural Language Processing</span>
+          <span class="tag">Machine Learning</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="contact-grid">
+      <a href="mailto:rizwan@ucla.edu" class="contact-item email">
+        <i class="fa fa-envelope"></i>
+        <span>rizwan@ucla.edu</span>
+      </a>
+      <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en" class="contact-item scholar">
+        <i class="fa fa-graduation-cap"></i>
+        <span>Google Scholar</span>
+      </a>
+      <a href="https://www.linkedin.com/in/rizwanparvez" class="contact-item linkedin">
+        <i class="fa fa-linkedin"></i>
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://rizwan09.github.io/files/cv_md_rizwan_parvez.pdf" class="contact-item cv">
+        <i class="fa fa-file-text"></i>
+        <span>Curriculum Vitae</span>
+      </a>
+    </div>
+  </div>
 </div>
 
-<!--
-<div class="col-md-6" markdown="1" id="main-profile">
-<div class="pre-scrollable" markdown="1" style="height:400px; max-height:400px;">
+<div class="content-wrapper">
+  <section class="bio-section">
+    <div class="section-header">
+      <h2><i class="fa fa-user-circle"></i> About Me</h2>
+    </div>
+    <div class="bio-content">
+      <p>I am a Scientist at Qatar Computing Research Institute. I completed my Ph.D. from <a href="http://www.cs.ucla.edu/">CS@UCLA</a> and was advised by <a href="http://web.cs.ucla.edu/~kwchang/">Prof. Kai-Wei Chang</a>. My research interests span the areas of information retrieval, natural and programming language processing (e.g., English, Python).</p>
+      
+      <p>Previously I was a Research Scientist at Bosch Research, Sunnyvale, USA (Aug 2022 to Dec 2023). During my Ph.D., I had the opportunity to work as a research intern at Google Research (Summer 2021), Facebook AI Research (Summer 2020), Salesforce Research (Summer 2019), and Microsoft AI & Research (Summer 2018). I received my Bachelor's in Computer Science and Engineering from <a href="http://cse.buet.ac.bd/">CSE@BUET</a> in September 2015.</p>
+      
+      <div class="callout-box">
+        <p><strong>Join us!</strong> We are looking for prospective students and postdocs, please read <a href="application/">this</a>.</p>
+      </div>
+    </div>
+  </section>
 
-### <i class="fa fa-plane"></i> Upcoming Travel
-<ul>
-{% for t in site.data.news[0].news %}
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-{% capture traveltime %}{{t.end | date: '%s'}}{% endcapture %}
-{% if traveltime > nowunix %}
-{% if t.start %}
-<li> {{ t.start }} -- {{ t.end }}:  <a href="{{ t.url | relative_url }}">{{ t.title }}</a> </li>
-{% else %}
-<li> {{ t.end }}:  <a href="{{ t.url | relative_url }}">{{ t.title }}</a> </li>
-{% endif %}
-{% endif %}
-{% endfor %}
-</ul>
-### <i class="fa fa-newspaper-o"></i> Recent News
-{% for d in site.data.news[1].news %}
-<h4>{{ d.date | date: '%b %Y' }}</h4>
-<ul>
-{% for t in d.items %}
- <li> {{ t.desc | markdownify | remove: '<p>' | remove: '</p>'}} </li>
-{% endfor %}
-</ul>
-{% endfor %}
+  <section class="research-group-section">
+    <div class="section-header">
+      <h2><i class="fa fa-users"></i> <a href="members">KAGNLP Group</a></h2>
+      <p class="section-subtitle">See our amazing team members</p>
+    </div>
+  </section>
+
+  <div class="two-column-layout">
+    <div class="left-column">
+      <section class="papers-section">
+        <div class="section-header">
+          <h3><i class="fa fa-book-open"></i> Selected Recent Papers</h3>
+          <div class="header-links">
+            <a href="publications_area/">by topics</a> | 
+            <a href="publications/">by year</a> | 
+            <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">Google Scholar</a>
+          </div>
+        </div>
+        <div class="papers-list">
+          {% bibliography --file uclanlp.bib --template publications-modern -q @*[selected=true]* %}
+        </div>
+        <div class="section-footer">
+          <a href="publications" class="btn btn-outline">Show More Papers</a>
+        </div>
+      </section>
+    </div>
+
+    <div class="right-column">
+      <section class="awards-section">
+        <div class="section-header">
+          <h3><i class="fa fa-trophy"></i> Selected Awards</h3>
+        </div>
+        <div class="awards-list">
+          <div class="award-item">
+            <span class="award-name">Sloan Research Fellowship</span>
+            <span class="award-year">2021</span>
+          </div>
+          <div class="award-item">
+            <span class="award-name">Outstanding Research Achievement</span>
+            <span class="award-year">2020</span>
+          </div>
+          <div class="award-item">
+            <span class="award-name">Best Paper Award</span>
+            <span class="award-year">2019</span>
+          </div>
+        </div>
+        <div class="section-footer">
+          <a href="awards" class="btn btn-outline">Show More Awards</a>
+        </div>
+      </section>
+
+      <section class="talks-section">
+        <div class="section-header">
+          <h3><i class="fa fa-microphone"></i> Selected Talks</h3>
+        </div>
+        <div class="talks-list">
+          {% for t in site.data.talk[0].talk %}
+            {% if t.selected == true %}
+              <div class="talk-item">
+                <a href="{{ t.url | relative_url }}">Tutorial: {{ t.title }}</a>
+              </div>
+            {% endif %}
+          {% endfor %}
+          {% for t in site.data.talk[1].talk %}
+            {% if t.selected == true %}
+              <div class="talk-item">
+                <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="section-footer">
+          <a href="talks" class="btn btn-outline">Show More Talks</a>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+  <div class="experience-section">
+    <div class="two-column-layout">
+      <div class="left-column">
+        <section>
+          <div class="section-header">
+            <h3><i class="fa fa-briefcase"></i> Experience</h3>
+            <a href="documents/pdf/cv.pdf" class="cv-link">Download CV</a>
+          </div>
+          <div class="experience-timeline">
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4>Scientist</h4>
+                <p>QCRI</p>
+                <span class="timeline-date">2023 - Present</span>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4>Research Scientist</h4>
+                <p>Bosch Research</p>
+                <span class="timeline-date">2022 - 2023</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="right-column">
+        <section>
+          <div class="section-header">
+            <h3><i class="fa fa-chalkboard-teacher"></i> Teaching</h3>
+          </div>
+          <div class="teaching-list">
+            <div class="teaching-item">
+              <h4>Special Topic in AI: Fairness, Accountability, and Transparency in NLP</h4>
+              <p>UCLA (Winter 2020)</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-header">
+            <h3><i class="fa fa-hands-helping"></i> Service</h3>
+          </div>
+          <div class="service-list">
+            <div class="service-item">
+              <span class="service-role">Area Chair</span>
+              <span class="service-venue">EMNLP 2025</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </div>
 </div>
-<div class="col-12 text-center">
-<button class="see-more">Scroll down to see more</button>
-</div>
 
-</div>
-<div class="col-md-6" markdown="1" id="main-profile">
-<div class="pre-scrollable" markdown="1" style="height:400px; max-height:400px;">
-<h2> News </h2>
-<a href="https://twitter.com/kaiwei_chang?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @kaiwei_chang</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<style>
+/* Modern styling for the Jekyll page */
+.hero-section {
+  background: linear-gradient(135deg, #8B0000 0%, #B22222 100%);
+  color: white;
+  padding: 4rem 0;
+  margin: -2rem -15px 3rem -15px;
+  position: relative;
+  overflow: hidden;
+}
 
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.1"/><circle cx="50" cy="10" r="0.5" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  pointer-events: none;
+}
 
-{% assign posts = paginator.posts | default: site.posts %}
-<div class="posts-list">
-<ul>
-  {% for post in posts %}
-<li>
- <a  href="{{ post.url | relative_url }}">	{{ post.title }} </a> </li>
-  {% endfor %}
-</ul>
-</div>
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+  z-index: 1;
+}
 
-{% if paginator.total_pages > 1 %}
-<ul class="pagination main-pager">
-  {% if paginator.previous_page %}
-  <li class="page-item previous">
-    <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="page-item next">
-    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
 
+.profile-image {
+  position: relative;
+  flex-shrink: 0;
+}
 
-</div>
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
 
-</div>
-</div>
-<hr/>
+.profile-avatar:hover {
+  transform: scale(1.05);
+}
 
-!-->
-<div class="row" markdown="1">
-## [KAGNLP Group (see our members)](members)
+.status-indicator {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background: #4CAF50;
+  border-radius: 50%;
+  border: 3px solid white;
+  animation: pulse 2s infinite;
+}
 
-<div class="col-md-6" markdown="1" id="main-profile">
-<div class="pre-scrollable" markdown="1" style="height:550px; max-height:550px;">
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(76, 175, 80, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); }
+}
 
-### <i class="fa fa-book"></i> [Selected Recent Papers]({{site.baseurl}}/publications_area)
+.profile-info {
+  flex: 1;
+}
 
-- Publications sorted by [topics](publications_area/) and [year](publications/)
-- [Google Scholar](https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en).
-{% bibliography  --file uclanlp.bib --template publications-simple -q @*[selected=true]*  %}
-<div class="col-12 text-center">
-<a href="publications">
-<button class="see-more">Show More Papers</button>
-</a>
-</div>
-</div>
-</div>
-<div class="col-md-6" markdown="1" id="main-profile">
+.name-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: white !important;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+}
 
-### <i class="fa fa-trophy"></i> Selected Awards
+.role-subtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+  margin: 0 0 1rem 0;
+}
 
-- [Sloan Research Fellowship](https://sloan.org/fellowships/), 2021
-- [Sloan Research Fellowship](https://sloan.org/fellowships/), 2021
-- [Sloan Research Fellowship](https://sloan.org/fellowships/), 2021
-- [Sloan Research Fellowship](https://sloan.org/fellowships/), 2021
+.research-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
 
-<div class="col-12 text-center">
-<a href="awards">
-<button class="see-more">Show More Awards</button>
-</a>
-</div>
+.tag {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
 
-### <i class="fa fa-microphone"></i> Selected Talks/Tutorials
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
 
-<ul>
-{% for t in site.data.talk[0].talk %}
-{% if t.selected == true%}
- <li> <a href="{{ t.url | relative_url }}">Tutorial: {{ t.title }} </a> </li>
-{% endif %}
-{% endfor %}
-{% for t in site.data.talk[1].talk %}
-{% if t.selected == true%}
- <li> <a href="{{ t.url | relative_url }}">{{ t.title }} </a> </li>
-{% endif %}
-{% endfor %}
-</ul>
-<div class="col-12 text-center">
-<a href="talks">
-<button class="see-more">Show More Talks</button>
-</a>
-</div>
-</div>
-</div>
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
 
-<hr/>
+.contact-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-decoration: none;
+}
 
-<div class="row" markdown="1">
-## About Me
+.contact-item i {
+  font-size: 1.2rem;
+  width: 20px;
+  text-align: center;
+}
 
-<div class="col-md-6" markdown="1" id="main-profile">
-<div class="pre-scrollable" markdown="1" style="height:500px; max-height:500px;">
-### <i class="fa fa-suitcase"></i>  Experience ([CV](documents/pdf/cv.pdf))
-- Scientist, [QCRI](https://www.hbku.edu.qa/en/qcri) 23-
-- Scientist, [QCRI](https://www.hbku.edu.qa/en/qcri) 23-
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
 
-### <i class="fa fa-lightbulb-o"></i> Teaching
+.section-header {
+  margin-bottom: 2rem;
+  border-bottom: 3px solid #f0f0f0;
+  padding-bottom: 1rem;
+}
 
-- [Special Topic in AI: Fairness, Accountability, and Transparency in Natural Language Processing](https://uclanlp.github.io/CS269-Winter2020/index.html), UCLA (Winter 2020)
-- [Special Topic in AI: Fairness, Accountability, and Transparency in Natural Language Processing](https://uclanlp.github.io/CS269-Winter2020/index.html), UCLA (Winter 2020)
-- [Special Topic in AI: Fairness, Accountability, and Transparency in Natural Language Processing](https://uclanlp.github.io/CS269-Winter2020/index.html), UCLA (Winter 2020)
+.section-header h2, .section-header h3 {
+  color: #8B0000;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
-</div>
-</div>
-<div class="col-md-6" markdown="1" id="main-profile">
+.section-header h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
 
-### <i class="fa fa-truck"></i> Service
+.section-header h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
 
-- Area Chair: EMNLP 25
-- Area Chair: EMNLP 25
-- Area Chair: EMNLP 25
-</div>
-</div>
+.section-subtitle {
+  color: #666;
+  margin: 0.5rem 0 0 0;
+  font-style: italic;
+}
+
+.header-links {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.header-links a {
+  color: #8B0000;
+  text-decoration: none;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+}
+
+.bio-section {
+  margin-bottom: 3rem;
+}
+
+.bio-content {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid #8B0000;
+}
+
+.bio-content p {
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.callout-box {
+  background: #fff5f5;
+  border: 1px solid #8B0000;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.callout-box p {
+  margin: 0;
+  color: #8B0000;
+}
+
+.research-group-section {
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(45deg, #f5f5f5 0%, #e8e8e8 100%);
+  border-radius: 12px;
+}
+
+.two-column-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .two-column-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .profile-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .name-title {
+    font-size: 2rem;
+  }
+  
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.papers-section, .awards-section, .talks-section {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  margin-bottom: 2rem;
+}
+
+.awards-list, .talks-list {
+  space-y: 1rem;
+}
+
+.award-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.award-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.award-year {
+  color: #8B0000;
+  font-weight: 500;
+  background: #fff5f5;
+  padding: 0.2rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.talk-item {
+  padding: 1rem;
+  border-left: 3px solid #8B0000;
+  background: #f8f9fa;
+  margin-bottom: 1rem;
+  border-radius: 0 8px 8px 0;
+}
+
+.talk-item a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.talk-item a:hover {
+  color: #8B0000;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline {
+  border: 2px solid #8B0000;
+  color: #8B0000;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #8B0000;
+  color: white;
+  text-decoration: none;
+}
+
+.section-footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.experience-section {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  margin-bottom: 2rem;
+}
+
+.cv-link {
+  font-size: 0.9rem;
+  color: #8B0000;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.experience-timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.experience-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #8B0000;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: -2rem;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #667eea;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #8B0000;
+}
+
+.timeline-content h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-weight: 600;
+}
+
+.timeline-content p {
+  margin: 0 0 0.5rem 0;
+  color: #666;
+}
+
+.timeline-date {
+  font-size: 0.9rem;
+  color: #8B0000;
+  font-weight: 500;
+}
+
+.teaching-list, .service-list {
+  space-y: 1rem;
+}
+
+.teaching-item, .service-item {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.teaching-item h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.teaching-item p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-role {
+  font-weight: 600;
+  color: #333;
+}
+
+.service-venue {
+  color: #8B0000;
+  font-weight: 500;
+  background: #fff5f5;
+  padding: 0.2rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+</style>
