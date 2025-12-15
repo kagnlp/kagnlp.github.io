@@ -5,67 +5,16 @@
       url: "https://rizwan09.github.io/"
       title : Scientist
       description: Lead
+      
 - group : PhD and Postdoc Researchers
   people :
-    - name : Yiwei Wang 
-      url : "https://wangywust.github.io/"
-      github: wangywUST
-      description: Postdoc->AP@UCMerced
-    - name : Yiwei Wang 
-      url : "https://wangywust.github.io/"
-      github: wangywUST
-      description: Postdoc->AP@UCMerced
-    - name : Yiwei Wang 
-      url : "https://wangywust.github.io/"
-      github: wangywUST
-      description: Postdoc->AP@UCMerced
+    - name : Md Ashraful Islam
+      url : "https://md-ashraful-pramanik.github.io/"
+      github: Md-Ashraful-Pramanik
+      description: PhD@Monash
 
 - group: Undergraduate and Master Researchers
   people:
     - name : Mahir Labib Dihan
       github : mahirlabibdihan
       url : "https://mahirlabibdihan.github.io/"
-
-- group: PhD/Postdoc Alumni
-  industry:
-    - name : Masoud Monajatipoor
-      github: masoud-monajati
-      url: "https://www.linkedin.com/in/masoudmonajatipoor"
-      description: "PhD 2024 (Co-Adivsed with Yang) -> Optum Labs"
-    - name : Masoud Monajatipoor
-      github: masoud-monajati
-      url: "https://www.linkedin.com/in/masoudmonajatipoor"
-      description: "PhD 2024 (Co-Adivsed with Yang) -> Optum Labs"
-    - name : Masoud Monajatipoor
-      github: masoud-monajati
-      url: "https://www.linkedin.com/in/masoudmonajatipoor"
-      description: "PhD 2024 (Co-Adivsed with Yang) -> Optum Labs"
- 
-  academy:  
-    - name : Pan Lu
-      github: lupantech
-      url: "https://lupantech.github.io/"
-      description: PhD 2024 (Co-advised with Songchun Zhu) -> Postdoc at Stanford
-      type: academy
-    - name : Pan Lu
-      github: lupantech
-      url: "https://lupantech.github.io/"
-      description: PhD 2024 (Co-advised with Songchun Zhu) -> Postdoc at Stanford
-      type: academy
-    - name : Pan Lu
-      github: lupantech
-      url: "https://lupantech.github.io/"
-      description: PhD 2024 (Co-advised with Songchun Zhu) -> Postdoc at Stanford
-      type: academy
-    
- 
-- group: Other Alumni
-  people:
-    - name : Xiao Liu
-      url: "https://xxxiaol.github.io/"
-      github: xxxiaol
-      description: "PhD Student at PKU"
-    - name : Xiao Liu
-      url: "https://xxxiaol.github.io/"
-      github: xxxiaol
-      description: "PhD Student at PKU"
