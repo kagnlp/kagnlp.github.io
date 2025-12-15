@@ -6,15 +6,12 @@
       title : Scientist
       description: Lead
       
-- group : PhD and Postdoc Researchers
+- group : PhD and Master Researchers
   people :
     - name : Md Ashraful Islam
       url : "https://md-ashraful-pramanik.github.io/"
       github: Md-Ashraful-Pramanik
       description: PhD@Monash
-
-- group: Undergraduate and Master Researchers
-  people:
     - name : Mahir Labib Dihan
       github : mahirlabibdihan
       url : "https://mahirlabibdihan.github.io/"
