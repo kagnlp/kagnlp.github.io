@@ -16,6 +16,7 @@ layout: page
         <div class="research-tags">
           <span class="tag">Natural Language Processing</span>
           <span class="tag">Machine Learning</span>
+          <span class="tag">Software Engineering</span>
         </div>
       </div>
     </div>
@@ -47,9 +48,17 @@ layout: page
       <h2><i class="fa fa-user-circle"></i> About Me</h2>
     </div>
     <div class="bio-content">
-      <p>I am a Scientist at Qatar Computing Research Institute. I completed my Ph.D. from <a href="http://www.cs.ucla.edu/">CS@UCLA</a> and was advised by <a href="http://web.cs.ucla.edu/~kwchang/">Prof. Kai-Wei Chang</a>. My research interests span the areas of information retrieval, natural and programming language processing (e.g., English, Python).</p>
+      <p>I am a Scientist at Qatar Computing Research Institute. My research centers on \textbf{language and code} as the foundational interfaces for advancing artificial intelligence (AI). The overarching goal is to enable seamless human–machine interaction by dissolving the boundaries between natural language, computational logic, and dynamic environments. I envision next-generation \textbf{natural language processing (NLP)} systems where language and code jointly serve as a universal medium for  communication, reasoning, and coordination among humans, machines, and environments. I am interested in the following five threads </p>
       
-      <p>Previously I was a Research Scientist at Bosch Research, Sunnyvale, USA (Aug 2022 to Dec 2023). During my Ph.D., I had the opportunity to work as a research intern at Google Research (Summer 2021), Facebook AI Research (Summer 2020), Salesforce Research (Summer 2019), and Microsoft AI & Research (Summer 2018). I received my Bachelor's in Computer Science and Engineering from <a href="http://cse.buet.ac.bd/">CSE@BUET</a> in September 2015.</p>
+      <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation and competitive problem solving, such as RedCoder, xCodeEval, MapCoder, and CodeSim. Currently, we are focusing more on code reasoning and software engineering (SWE) tasks. </p>
+
+       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including FILCO, Open-RAG, that can adaptively determine when to use external retrieval, how to filter noises from retrieval, and leverage them effectively in generation. </p>
+
+       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation, such as RedCoder, xCodeEval, MapCoder, CodeSim, 
+      etc., </p>
+
+       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation, such as RedCoder, xCodeEval, MapCoder, CodeSim, 
+      etc., </p>
       
       <div class="callout-box">
         <p><strong>Join us!</strong> We are looking for prospective students and postdocs, please read <a href="application/">this</a>.</p>
