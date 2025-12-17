@@ -52,11 +52,11 @@ layout: page
       
       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation and competitive problem solving, such as RedCoder, xCodeEval, MapCoder, and CodeSim. Currently, we are focusing more on code reasoning and software engineering (SWE) tasks. </p>
 
-       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including FILCO, Open-RAG, that can adaptively determine when to use external retrieval, how to filter noises from retrieval, and leverage them effectively in generation. </p>
+       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including Filco, Open-RAG, that can adaptively determine when to use external retrieval, how to filter noises from retrieval, and leverage them effectively in generation. </p>
 
        <p> <strong> Connecting Language with Visual and Spatial Reasoning: </strong> We built systems that augments language with multi-modal learning signals. For visual reasoning, we co-developed ChartQAPro, ChartInstruct, DataNarrative, DashboardQA, and VideoLights. For geosptial reasoning we developed MapEval, MapAgent, SpatiaLab, and TimeSpot.  </p>
 
-       <p> <strong> Agents for real-world environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling. We have several ongoing projects in this thread </p>
+       <p> <strong> Agents for real-world environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling, and other ongoins works. </p>
 
       <p> <strong> AI4Good: </strong> We also have a thread of AI4Science, AI4Health, AI4Security, Quantam-NLP, and other other socially beneficial AI.  </p>
       
