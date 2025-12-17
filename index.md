@@ -58,7 +58,7 @@ layout: page
 
        <p> <strong> Agents for Real-world Environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling, and other ongoins works. </p>
 
-      <p> <strong> NLP for Social Good: </strong> We have started a new thread on AI4Science, AI4Health, AI4Security, Quantam-NLP, and other other socially beneficial AI.  </p>
+      <p> <strong> NLP for Social Good: </strong> We have started a new thread on Science, Healthcare, Security, Quantam, and other other socially beneficial AI.  </p>
       
       <div class="callout-box">
         <p><strong>Join us!</strong> We are looking for prospective students, please read <a href="application/">this</a>.</p>
