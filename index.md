@@ -100,7 +100,7 @@ layout: page
         </div>
         <div class="awards-list">
           <div class="award-item">
-            <span class="award-name">ICML SpotLight!! (Acceptance rate <2%)</span>
+            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> MapEval as ICML SpotLight!! (Acceptance rate <2%) </a>  </span>
             <span class="award-year">2025</span>
           </div>
           <div class="award-item">
@@ -112,7 +112,7 @@ layout: page
             <span class="award-year">2017, 2018</span>
           </div>
           <div class="award-item">
-            <span class="award-name">ACL/EMNLP Student Travel Grant</span>
+            <span class="award-name">ACL and EMNLP Student Travel Grant</span>
             <span class="award-year">2018, 2021</span>
           </div>
           
