@@ -48,17 +48,17 @@ layout: page
       <h2><i class="fa fa-user-circle"></i> About Me</h2>
     </div>
     <div class="bio-content">
-      <p>I am a Scientist at Qatar Computing Research Institute. My research centers on \textbf{language and code} as the foundational interfaces for advancing artificial intelligence (AI). The overarching goal is to enable seamless human–machine interaction by dissolving the boundaries between natural language, computational logic, and dynamic environments. I envision next-generation \textbf{natural language processing (NLP)} systems where language and code jointly serve as a universal medium for  communication, reasoning, and coordination among humans, machines, and environments. I am interested in the following five threads </p>
+      <p>I am a Scientist at Qatar Computing Research Institute. My research centers on language and code. The overarching goal is to enable seamless human–machine interaction by dissolving the boundaries between natural language, computational logic, and dynamic environments. I am interested in the following five threads. </p>
       
       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation and competitive problem solving, such as RedCoder, xCodeEval, MapCoder, and CodeSim. Currently, we are focusing more on code reasoning and software engineering (SWE) tasks. </p>
 
        <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including FILCO, Open-RAG, that can adaptively determine when to use external retrieval, how to filter noises from retrieval, and leverage them effectively in generation. </p>
 
-       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation, such as RedCoder, xCodeEval, MapCoder, CodeSim, 
-      etc., </p>
+       <p> <strong> Connecting Language with Visual and Spatial Reasoning: </strong> We built systems that augments language with multi-modal learning signals. For visual reasoning, we co-developed ChartQAPro, ChartInstruct, DataNarrative, DashboardQA, and VideoLights. For geosptial reasoning we developed MapEval, MapAgent, SpatiaLab, and TimeSpot.  </p>
 
-       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation, such as RedCoder, xCodeEval, MapCoder, CodeSim, 
-      etc., </p>
+       <p> <strong> Agents for real-world environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling. We have several ongoing projects in this thread </p>
+
+      <p> <strong> AI4Good: </strong> We also have a thread of AI4Science, AI4Health, AI4Security, Quantam-NLP, and other other socially beneficial AI.  </p>
       
       <div class="callout-box">
         <p><strong>Join us!</strong> We are looking for prospective students and postdocs, please read <a href="application/">this</a>.</p>
