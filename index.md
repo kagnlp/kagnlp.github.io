@@ -56,9 +56,9 @@ layout: page
 
        <p> <strong> Connecting Language with Visual and Spatial Reasoning: </strong> We built systems that augments language with multi-modal learning signals. For visual reasoning, we co-developed ChartQAPro, ChartInstruct, DataNarrative, DashboardQA, and VideoLights. For geosptial reasoning we developed MapEval, MapAgent, SpatiaLab, and TimeSpot.  </p>
 
-       <p> <strong> Agents for real-world environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling, and other ongoins works. </p>
+       <p> <strong> Agents for Real-world Environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling, and other ongoins works. </p>
 
-      <p> <strong> AI4Good: </strong> We have started a new thread on AI4Science, AI4Health, AI4Security, Quantam-NLP, and other other socially beneficial AI.  </p>
+      <p> <strong> NLP for Social Good: </strong> We have started a new thread on AI4Science, AI4Health, AI4Security, Quantam-NLP, and other other socially beneficial AI.  </p>
       
       <div class="callout-box">
         <p><strong>Join us!</strong> We are looking for prospective students, please read <a href="application/">this</a>.</p>
