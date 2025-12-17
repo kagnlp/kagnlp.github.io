@@ -52,13 +52,13 @@ layout: page
       
       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation and competitive problem solving, such as RedCoder, xCodeEval, MapCoder, and CodeSim. Currently, we are focusing more on code reasoning and software engineering (SWE) tasks. </p>
 
-       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including ERA, DelucionQA, Filco, Open-RAG, TechniqueRAG, Chain-of-Evidences that can adaptively determine when to use external retrieval, how to filter noises from retrieval, and leverage them effectively in generation. </p>
+       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including ERA, DelucionQA, Filco, Open-RAG, TechniqueRAG, and Chain-of-Evidences that can adaptively determine when to use external retrieval, how to filter noises from retrieval, and leverage them effectively in generation. </p>
 
        <p> <strong> Connecting Language with Visual and Spatial Reasoning: </strong> We built systems that augments language with multi-modal learning signals. For visual reasoning, we co-developed ChartQAPro, ChartInstruct, DataNarrative, DashboardQA, and VideoLights. For geosptial reasoning we developed MapEval, MapAgent, SpatiaLab, and TimeSpot.  </p>
 
-       <p> <strong> Agents for Real-world Environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling, and other ongoins works. </p>
+       <p> <strong> Agents for Real-world Environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling, and other ongoing works. </p>
 
-      <p> <strong> NLP for Social Good: </strong> We have started a new thread on Science, Healthcare, Security, Quantam, and other other socially beneficial AI.  </p>
+      <p> <strong> NLP for Social Good: </strong> We are expanding in Science, Healthcare, Security, Quantam, and other socially beneficial AI.  </p>
       
       <div class="callout-box">
         <p><strong>Join us!</strong> We are looking for prospective students, please read <a href="application/">this</a>.</p>
@@ -96,21 +96,26 @@ layout: page
     <div class="right-column">
       <section class="awards-section">
         <div class="section-header">
-          <h3><i class="fa fa-trophy"></i> Selected Awards</h3>
+          <h3><i class="fa fa-trophy"></i> Achievements</h3>
         </div>
         <div class="awards-list">
           <div class="award-item">
-            <span class="award-name">Sloan Research Fellowship</span>
-            <span class="award-year">2021</span>
+            <span class="award-name">ICML SpotLight!! (Acceptance rate <2%)</span>
+            <span class="award-year">2025</span>
           </div>
           <div class="award-item">
-            <span class="award-name">Outstanding Research Achievement</span>
-            <span class="award-year">2020</span>
+            <span class="award-name">Open-RAG in <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/"> MarkTeckPost Coverage!! </a> </span>
+            <span class="award-year">2024</span>
           </div>
           <div class="award-item">
-            <span class="award-name">Best Paper Award</span>
-            <span class="award-year">2019</span>
+            <span class="award-name">UCLA Graduate Fellowships</span>
+            <span class="award-year">2017, 2018</span>
           </div>
+          <div class="award-item">
+            <span class="award-name">ACL/EMNLP Student Travel Grant</span>
+            <span class="award-year">2018, 2021</span>
+          </div>
+          
         </div>
         <div class="section-footer">
           <a href="awards" class="btn btn-outline">Show More Awards</a>
