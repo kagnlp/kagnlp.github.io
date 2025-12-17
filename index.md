@@ -58,10 +58,10 @@ layout: page
 
        <p> <strong> Agents for real-world environments: </strong> We design AI agents that can operate and reason in real-world environments including Xolver for SWE, WebOperator for Web, MapAgent for tool calling, and other ongoins works. </p>
 
-      <p> <strong> AI4Good: </strong> We also have a thread of AI4Science, AI4Health, AI4Security, Quantam-NLP, and other other socially beneficial AI.  </p>
+      <p> <strong> AI4Good: </strong> We have started a new thread on AI4Science, AI4Health, AI4Security, Quantam-NLP, and other other socially beneficial AI.  </p>
       
       <div class="callout-box">
-        <p><strong>Join us!</strong> We are looking for prospective students and postdocs, please read <a href="application/">this</a>.</p>
+        <p><strong>Join us!</strong> We are looking for prospective students, please read <a href="application/">this</a>.</p>
       </div>
     </div>
   </section>
