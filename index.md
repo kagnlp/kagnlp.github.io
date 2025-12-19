@@ -100,7 +100,7 @@ layout: page
         </div>
         <div class="awards-list">
           <div class="award-item">
-            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> MapEval as ICML SpotLight!! (Acceptance rate <2%) </a>  </span>
+            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (Acceptance rate <2%) </a>  </span>
             <span class="award-year">2025</span>
           </div>
           <div class="award-item">
@@ -182,12 +182,16 @@ layout: page
       <div class="right-column">
         <section>
           <div class="section-header">
-            <h3><i class="fa fa-chalkboard-teacher"></i> Teaching</h3>
+            <h3><i class="fa fa-chalkboard-teacher"></i>Teaching Experience</h3>
           </div>
           <div class="teaching-list">
             <div class="teaching-item">
-              <h4>Special Topic in AI: Fairness, Accountability, and Transparency in NLP</h4>
-              <p>UCLA (Winter 2020)</p>
+              <h4>CSM146: Introduction to Machine Learning</h4>
+              <p>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</p>
+            </div> 
+            <div class="teaching-item">
+              <h4>CS269: Natural Language Processing</h4>
+              <p>UCLA Teaching Assistant (Fall 2017)</p>
             </div>
           </div>
         </section>
@@ -198,8 +202,12 @@ layout: page
           </div>
           <div class="service-list">
             <div class="service-item">
+              <span class="service-role">Senior Area Chair</span>
+              <span class="service-venue">EMNLP 2025, EACL 2026, ACL 2026 (Upcoming)</span>
+            </div>
+            <div class="service-item">
               <span class="service-role">Area Chair</span>
-              <span class="service-venue">EMNLP 2025</span>
+              <span class="service-venue">ACL 2025</span>
             </div>
           </div>
         </section>
