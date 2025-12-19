@@ -186,12 +186,12 @@ layout: page
           </div>
           <div class="teaching-list">
             <div class="teaching-item">
-              <h4>CSM146: Introduction to Machine Learning</h4>
-              <p>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</p>
+              <h1>CSM146: Introduction to Machine Learning</h1>
+              <h2>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</h2>
             </div> 
             <div class="teaching-item">
-              <h4>CS269: Natural Language Processing</h4>
-              <p>UCLA Teaching Assistant (Fall 2017)</p>
+              <h1>CS269: Natural Language Processing</h1>
+              <h2>UCLA Teaching Assistant (Fall 2017)</h2>
             </div>
           </div>
         </section>
@@ -202,12 +202,10 @@ layout: page
           </div>
           <div class="service-list">
             <div class="service-item">
-              <span class="service-role">Senior Area Chair</span>
-              <span class="service-venue">EMNLP 2025, EACL 2026, ACL 2026 (Upcoming)</span>
+              <span class="service-role">Senior Area Chair: EMNLP 2025, EACL 2026, ACL 2026 (Upcoming)</span>
             </div>
             <div class="service-item">
-              <span class="service-role">Area Chair</span>
-              <span class="service-venue">ACL 2025</span>
+              <span class="service-role">Area Chair: ACL 2025</span>
             </div>
           </div>
         </section>
