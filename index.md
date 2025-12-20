@@ -156,7 +156,7 @@ layout: page
         <section>
           <div class="section-header">
             <h3><i class="fa fa-briefcase"></i> Experience</h3>
-            <a href="documents/pdf/cv.pdf" class="cv-link">Download CV</a>
+            <a href="_data/cv_md_rizwan_parvez (42).pdf" class="cv-link">Download CV</a>
           </div>
           <div class="experience-timeline">
             <div class="timeline-item">
