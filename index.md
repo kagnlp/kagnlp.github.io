@@ -34,7 +34,7 @@ layout: page
         <i class="fa fa-linkedin"></i>
         <span>LinkedIn</span>
       </a>
-      <a href="https://rizwan09.github.io/files/cv_md_rizwan_parvez.pdf" class="contact-item cv">
+      <a href="https://github.com/kagnlp/kagnlp.github.io/tree/main/_data/cv_md_rizwan_parvez_kagnlp.pdf" class="contact-item cv">
         <i class="fa fa-file-text"></i>
         <span>Curriculum Vitae</span>
       </a>
@@ -85,7 +85,7 @@ layout: page
           </div>
         </div>
         <div class="papers-list">
-          {% bibliography --file uclanlp.bib --template publications-modern -q @*[selected=true]* %}
+          {% bibliography --file uclanlp.bib -q @*[selected=true]* %}
         </div>
         <div class="section-footer">
           <a href="publications" class="btn btn-outline">Show More Papers</a>
@@ -186,12 +186,12 @@ layout: page
           </div>
           <div class="teaching-list">
             <div class="teaching-item">
-              <h3>CSM146: Introduction to Machine Learning</h3>
-              <p>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</p>
+              <h5>CSM146: Introduction to Machine Learning</h5>
+              <h5>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</h5>
             </div> 
             <div class="teaching-item">
-              <h3>CS269: Natural Language Processing</h3>
-              <p>UCLA Teaching Assistant (Fall 2017)</p>
+              <h5>CS269: Natural Language Processing</h5>
+              <h5>UCLA Teaching Assistant (Fall 2017)</h5>
             </div>
           </div>
         </section>
@@ -202,8 +202,7 @@ layout: page
           </div>
           <div class="service-list">
             <div class="service-item">
-              <span class="service-role">Senior Area Chair: EMNLP 2025, EACL 2026, ACL 2026 (Upcoming)</span>
-              <span class="service-venue">Senior Area Chair: EMNLP 2025, EACL 2026, ACL 2026 (Upcoming)</span>
+              <span class="service-role">Senior Area Chair: ACL 2026 (Upcoming), EACL 2026, EMNLP 2025</span>
             </div>
             <div class="service-item">
               <span class="service-role">Area Chair: ACL 2025</span>
