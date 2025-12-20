@@ -52,7 +52,7 @@ layout: page
       
       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation and competitive problem solving, such as RedCoder, xCodeEval, MapCoder, and CodeSim. Currently, we are focusing more on code reasoning and software engineering (SWE) tasks. </p>
 
-       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including ERA, DelucionQA, Filco, Open-RAG, TechniqueRAG, and Chain-of-Evidences that can adaptively determine when to use external retrieval, how to filter noises from retrieval, and leverage them effectively. </p>
+       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including ERA, DelucionQA, Filco, Open-RAG, TechniqueRAG, and Chain-of-Evidences that can adaptively determine when to use external retrieval, how to filter retrieval noises and leverage them effectively. </p>
 
        <p> <strong> Connecting Language with Visual and Spatial Reasoning: </strong> We built systems that augments language with multi-modal learning signals. For visual reasoning, we co-developed ChartQAPro, ChartInstruct, DataNarrative, DashboardQA, and VideoLights. For geosptial reasoning we developed MapEval, MapAgent, SpatiaLab, and TimeSpot.  </p>
 
@@ -186,12 +186,12 @@ layout: page
           </div>
           <div class="teaching-list">
             <div class="teaching-item">
-              <h1>CSM146: Introduction to Machine Learning</h1>
-              <h2>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</h2>
+              <h3>CSM146: Introduction to Machine Learning</h3>
+              <p>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</p>
             </div> 
             <div class="teaching-item">
-              <h1>CS269: Natural Language Processing</h1>
-              <h2>UCLA Teaching Assistant (Fall 2017)</h2>
+              <h3>CS269: Natural Language Processing</h3>
+              <p>UCLA Teaching Assistant (Fall 2017)</p>
             </div>
           </div>
         </section>
@@ -203,6 +203,7 @@ layout: page
           <div class="service-list">
             <div class="service-item">
               <span class="service-role">Senior Area Chair: EMNLP 2025, EACL 2026, ACL 2026 (Upcoming)</span>
+              <span class="service-venue">Senior Area Chair: EMNLP 2025, EACL 2026, ACL 2026 (Upcoming)</span>
             </div>
             <div class="service-item">
               <span class="service-role">Area Chair: ACL 2025</span>
