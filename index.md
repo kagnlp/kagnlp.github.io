@@ -203,10 +203,12 @@ layout: page
           </div>
           <div class="service-list">
             <div class="service-item">
-              <span class="service-role">Senior Area Chair: ACL 2026 (Upcoming), EACL 2026, EMNLP 2025</span>
+               <h5>Senior Area Chair</h5>
+              <h6>ACL 2026, EACL 2026, EMNLP 2025 </h6> 
             </div>
             <div class="service-item">
-              <span class="service-role">Area Chair: ACL 2025</span>
+              <h5>Area Chair</h5>
+              <h6>ACL 2025</h6>
             </div>
           </div>
         </section>
