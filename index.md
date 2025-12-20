@@ -34,7 +34,7 @@ layout: page
         <i class="fa fa-linkedin"></i>
         <span>LinkedIn</span>
       </a>
-      <a href="https://github.com/kagnlp/kagnlp.github.io/tree/main/_data/cv_md_rizwan_parvez_kagnlp.pdf" class="contact-item cv">
+      <a href="https://drive.google.com/file/d/1bifUIeFKGY4MMkx28jh_egyzGyvZ8x4Q/view?usp=sharing" class="contact-item cv">
         <i class="fa fa-file-text"></i>
         <span>Curriculum Vitae</span>
       </a>
