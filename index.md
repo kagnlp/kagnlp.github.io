@@ -48,11 +48,12 @@ layout: page
       <h2><i class="fa fa-user-circle"></i> About Me</h2>
     </div>
     <div class="bio-content">
-      <p>I am a Scientist at Qatar Computing Research Institute. My research centers on language and code. The overarching goal is to enable seamless human–machine interaction by dissolving the boundaries between natural language, computational logic, and dynamic environments. I am interested in the following five threads. </p>
+      <p>I am a Scientist at Qatar Computing Research Institute. I have completeded my Ph.D. from <a href="http://www.cs.ucla.edu/">CS@UCLA</a>
+  and was advised by <a href="http://web.cs.ucla.edu/~kwchang/">Prof. Kai-Wei Chang</a>. My research centers on language and code. The overarching goal is to enable seamless human–machine interaction by dissolving the boundaries between natural language, computational logic, and dynamic environments. I am interested in the following five threads. </p>
       
       <p> <strong> Bridging Natural and Programming Languages: </strong> We have developed pioneering works on code generation and competitive problem solving, such as RedCoder, xCodeEval, MapCoder, and CodeSim. Currently, we are focusing more on code reasoning and software engineering (SWE) tasks. </p>
 
-       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including ERA, DelucionQA, Filco, Open-RAG, TechniqueRAG, and Chain-of-Evidences that can adaptively determine when to use external retrieval, how to filter retrieval noises and leverage them effectively. </p>
+       <p> <strong> Learning from Open Knowledge and Auxiliary Supervision: </strong> We published several impactful papers on retrieval augmented generation (RAG), including ERA, DelucionQA, Filco, Open-RAG, TechniqueRAG, and Chain-of-Evidences that can adaptively determine when to use external retrieval, how to filter retrieval noises and leverage them. </p>
 
        <p> <strong> Connecting Language with Visual and Spatial Reasoning: </strong> We built systems that augments language with multi-modal learning signals. For visual reasoning, we co-developed ChartQAPro, ChartInstruct, DataNarrative, DashboardQA, and VideoLights. For geosptial reasoning we developed MapEval, MapAgent, SpatiaLab, and TimeSpot.  </p>
 
@@ -85,7 +86,7 @@ layout: page
           </div>
         </div>
         <div class="papers-list">
-          {% bibliography --file uclanlp.bib -q @*[selected=true]* %}
+          {% bibliography --file ref -q @*[selected=true]* --sort_by year --order descending %}
         </div>
         <div class="section-footer">
           <a href="publications" class="btn btn-outline">Show More Papers</a>
@@ -96,7 +97,7 @@ layout: page
     <div class="right-column">
       <section class="awards-section">
         <div class="section-header">
-          <h3><i class="fa fa-trophy"></i> Achievements</h3>
+          <h3><i class="fa fa-trophy"></i>Selected Achievements</h3>
         </div>
         <div class="awards-list">
           <div class="award-item">
@@ -156,7 +157,7 @@ layout: page
         <section>
           <div class="section-header">
             <h3><i class="fa fa-briefcase"></i> Experience</h3>
-            <a href="_data/cv_md_rizwan_parvez (42).pdf" class="cv-link">Download CV</a>
+            <a href="https://drive.google.com/file/d/1bifUIeFKGY4MMkx28jh_egyzGyvZ8x4Q/view?usp=sharing" class="cv-link">Download CV</a>
           </div>
           <div class="experience-timeline">
             <div class="timeline-item">
@@ -187,11 +188,11 @@ layout: page
           <div class="teaching-list">
             <div class="teaching-item">
               <h5>CSM146: Introduction to Machine Learning</h5>
-              <h5>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</h5>
+              <h6>UCLA Teaching Fellow (Fall 2020, Winter 2020, Fall 2029, Fall 2018)</h6>
             </div> 
             <div class="teaching-item">
               <h5>CS269: Natural Language Processing</h5>
-              <h5>UCLA Teaching Assistant (Fall 2017)</h5>
+              <h6>UCLA Teaching Assistant (Fall 2017)</h6>
             </div>
           </div>
         </section>
