@@ -86,7 +86,7 @@ layout: page
           </div>
         </div>
         <div class="papers-list">
-          {% bibliography --file ref -q @*[selected=true]* --sort_by year --order descending %}
+          {% bibliography --file ref -q @*[selected=true]* --sort_by year %}
         </div>
         <div class="section-footer">
           <a href="publications" class="btn btn-outline">Show More Papers</a>
