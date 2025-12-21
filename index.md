@@ -86,7 +86,7 @@ layout: page
           </div>
         </div>
         <div class="papers-list">
-          {% bibliography --file ref -q @*[selected=true]* --sort_by year %}
+          {% bibliography --file ref -q @*[selected=true]* --sort_by year --oder ascending %}
         </div>
         <div class="section-footer">
           <a href="publications" class="btn btn-outline">Show More Papers</a>
@@ -131,7 +131,7 @@ layout: page
           {% for t in site.data.talk[0].talk %}
             {% if t.selected == true %}
               <div class="talk-item">
-                <a href="{{ t.url | relative_url }}">Tutorial: {{ t.title }}</a>
+                <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
               </div>
             {% endif %}
           {% endfor %}
