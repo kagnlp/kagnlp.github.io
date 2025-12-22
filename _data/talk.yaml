@@ -2,7 +2,7 @@
   talk :
   - key: AWS21
       title: Language Agents for Software Development!
-      venue: 11th NSYSS 
+      venue: NSYSS (2024)
       abstract: "Large Language Models (LLMs) and Generative AI are becoming an integral part of day-to-day tasks at the personal and enterprise level due to their ability to carry out multifaceted language and cognitive tasks. The rapid advancements in LLM research have spurred the development of language agents for a wide array of applications, including writing assistants, translation services, and customer support, all aimed at enhancing human productivity. While language remains a central medium for interaction, the emergence of multimodal inputs and outputs—such as text, code, images, and video—has further broadened the impact of these technologies, reshaping diverse fields. In particular, the ability of LLMs to generate source code (e.g., Python from natural language) has had a transformative effect on software development, significantly boosting engineering productivity. In this talk, I will discuss the challenges associated with code generation tasks, the methodologies for building effective language agents for program synthesis, their evaluation, and future directions for advancing this field."
       url: "https://docs.google.com/presentation/d/12d2MyfaKaTzCVhc-kjH9yzswalvM4151/edit?usp=sharing&ouid=112269230146800668387&rtpof=true&sd=true"
       selected: true
