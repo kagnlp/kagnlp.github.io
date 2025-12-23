@@ -96,58 +96,35 @@ layout: page
 
     <div class="right-column">
 
-        <section class="news-section">
-          <div class="section-header">
-            <h3><i class="fa fa-bullhorn"></i>News & Updates</h3>
+
+
+      <section class="awards-section">
+        <div class="section-header">
+          <h3><i class="fa fa-trophy"></i>Selected Achievements</h3>
+        </div>
+        <div class="awards-list">
+          <div class="award-item">
+            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (Acceptance rate <2%) </a>  </span>
+            <span class="award-year">2025</span>
           </div>
-        
-          <div class="news-list">
-
-
-          <div class="news-item">
-              <span class="news-text">
-                I will be servig as a Senior Area Chair at <a href="https://2026.aclweb.org/"> ACL 2026!!</a> .
-              </span>
-              <span class="news-year">2025</span>
-            </div>
-
-           <div class="news-item">
-              <span class="news-text">
-                We have open-sourced <a href="https://kagnlp.github.io/xolver.github.io/"> WebOpeartor!!</a> .
-              </span>
-              <span class="news-year">2025</span>
-            </div>
-            
-
-          <div class="news-item">
-              <span class="news-text">
-                We have open-sourced <a href="https://kagnlp.github.io/WebOperator/"> Xolver!!</a> .
-              </span>
-              <span class="news-year">2025</span>
-            </div>
-            
-            <div class="news-item">
-              <span class="news-text">
-               X-Teaming got accepted at <a href="https://x-teaming.github.io/"> COLM 2025!! </a>.
-              </span>
-              <span class="news-year">2025</span>
-            </div>
-        
-        
-            <div class="news-item">
-              <span class="news-text">
-               Three papers (TechniqueRAG, ChartQaPro, and MapQaTor) got accepted at <a href="https://aclanthology.org/people/md-rizwan-parvez/"> ACL 2025!! </a>.
-              </span>
-              <span class="news-year">2025</span>
-            </div>
-        
-            
+          <div class="award-item">
+            <span class="award-name">Open-RAG in <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/"> MarkTechPost Coverage!! </a> </span>
+            <span class="award-year">2024</span>
           </div>
-        
-          <div class="section-footer">
-            <a href="news" class="btn btn-outline">Show All News</a>
+          <div class="award-item">
+            <span class="award-name">UCLA Graduate Fellowships</span>
+            <span class="award-year">2017, 2018</span>
           </div>
-        </section>
+          <div class="award-item">
+            <span class="award-name">ACL and EMNLP Student Travel Grant</span>
+            <span class="award-year">2018, 2021</span>
+          </div>
+          
+        </div>
+        <div class="section-footer">
+          <a href="awards" class="btn btn-outline">Show More Awards</a>
+        </div>
+      </section>
 
 
 
