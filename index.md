@@ -98,33 +98,32 @@ layout: page
 
 
 
-      <section class="awards-section">
-        <div class="section-header">
-          <h3><i class="fa fa-trophy"></i>Selected Achievements</h3>
-        </div>
-        <div class="awards-list">
-          <div class="award-item">
-            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (AC Rate <2%) </a>  </span>
-            <span class="award-year">2025</span>
+      <section class="news-section">
+          <div class="section-header">
+            <h3><i class="fa fa-bullhorn"></i>News & Updates</h3>
           </div>
-          <div class="award-item">
-            <span class="award-name">Open-RAG in <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/"> MarkTechPost Coverage!! </a> </span>
-            <span class="award-year">2024</span>
-          </div>
-          <div class="award-item">
-            <span class="award-name">UCLA Graduate Fellowships</span>
-            <span class="award-year">2017, 2018</span>
-          </div>
-          <div class="award-item">
-            <span class="award-name">ACL and EMNLP Student Travel Grant</span>
-            <span class="award-year">2018, 2021</span>
-          </div>
+        
+          <div class="news-list">
+
           
-        </div>
-        <div class="section-footer">
-          <a href="awards" class="btn btn-outline">Show More Awards</a>
-        </div>
-      </section>
+            <div class="news-item">
+              <span class="news-text">
+                Our paper <strong>Xolver: Complex Reasoning with Holistic Experience Learning</strong> accepted to <strong>NeurIPS 2025</strong>.
+              </span>
+              <span class="news-year">2025</span>
+            </div>
+        
+
+
+
+            
+          </div>
+        
+          <div class="section-footer">
+            <a href="news" class="btn btn-outline">Show All News</a>
+          </div>
+        </section>
+
 
 
 
@@ -138,7 +137,7 @@ layout: page
         </div>
         <div class="awards-list">
           <div class="award-item">
-            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (Acceptance rate <2%) </a>  </span>
+            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (AC Rate <2%) </a>  </span>
             <span class="award-year">2025</span>
           </div>
           <div class="award-item">
@@ -177,6 +176,7 @@ layout: page
             {% if t.selected == true %}
               <div class="talk-item">
                 <a href="{{ t.url | relative_url }}">{{ t.title }}  </a>
+                 <span class="venue"> — {{ t.venue }}</span>
               </div>
             {% endif %}
           {% endfor %}
