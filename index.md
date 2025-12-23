@@ -168,7 +168,7 @@ layout: page
           {% for t in site.data.talk[0].talk %}
             {% if t.selected == true %}
               <div class="talk-item">
-                <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
+                <a href="{{ t.url | relative_url }}"> Tutorial: {{ t.title }}</a>
                 <span class="venue"> — {{ t.venue }}</span>
               </div>
             {% endif %}
