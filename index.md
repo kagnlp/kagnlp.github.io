@@ -104,7 +104,7 @@ layout: page
         </div>
         <div class="awards-list">
           <div class="award-item">
-            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (Acceptance rate <2%) </a>  </span>
+            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (AC Rate <2%) </a>  </span>
             <span class="award-year">2025</span>
           </div>
           <div class="award-item">
