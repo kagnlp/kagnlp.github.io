@@ -109,16 +109,16 @@ layout: page
           
           <div class="news-list">
             {% for entry in site.data.news[0].news %}
-               <div class="news-month">
-                  <span class="news-date">{{ entry }}</span>
-                </div>
+              
               {% assign entry_year = entry.date | slice: -4 | plus: 0 %}
               {% assign entry_month_name = entry.date | split: "," | first %}
               {% assign entry_month = entry_month_name | date: "%m" | plus: 0 %}
           
               {% assign month_diff = current_month | minus: entry_month %}
               {% assign year_diff = current_year | minus: entry_year %}
-          
+               <div class="news-month">
+                  <span class="news-date">{{ month_diff }}</span>
+                </div>
               {% if year_diff == 0 and month_diff <= 3 and month_diff >= 0 %}
                 <div class="news-month">
                   <span class="news-date">{{ entry.date }}</span>
