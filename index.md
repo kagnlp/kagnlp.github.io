@@ -108,11 +108,14 @@ layout: page
         
           <div class="news-list">
             {% for entry in site.data.news[0].news %}
-              <div class="news-item">
-                      {{ entry.desc | markdownify }}
-               </div>
+          
               {% assign year_diff = current_year | minus: entry.year %}
               {% assign month_diff = current_month | minus: entry.month %}
+
+              <div class="news-item">
+              {{year_diff, current_year, entry.year }}
+              {{ month_diff, current_month, entry.month }
+              </div>
         
               {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
                 <div class="news-month">
