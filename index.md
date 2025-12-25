@@ -124,6 +124,9 @@ layout: page
           
           <div class="news-list">
             {% for entry in site.data.news[0].news %}
+               <div class="news-month">
+                  <span class="news-date">{{ entry }}</span>
+                </div>
               {% assign entry_year = entry.date | slice: -4 | plus: 0 %}
               {% assign entry_month_name = entry.date | split: "," | first %}
               {% assign entry_month = entry_month_name | date: "%m" | plus: 0 %}
