@@ -176,7 +176,6 @@ layout: page
             {% if t.selected == true %}
               <div class="talk-item">
                 <a href=" Talk: {{ t.url | relative_url }}">{{ t.title }}  </a>
-                 <!-- <span class="venue"> — {{ t.venue }}</span>
               </div>
             {% endif %}
           {% endfor %}
@@ -219,19 +218,19 @@ layout: page
               <div class="timeline-content">
                 <h4>PhD Summer Research Internships</h4>
             
-                <p><strong>Research Intern</strong>, Google Research, Kirkland, WA
+                <p><strong>Google Research</strong>, Kirkland, WA
                   <span class="timeline-date">2021</span>
                 </p>
             
-                <p><strong>Research Intern</strong>, Facebook AI Research (FAIR), Seattle, WA
+                <p><strong>Facebook AI Research (FAIR)</strong>, Seattle, WA
                   <span class="timeline-date">2020</span>
                 </p>
             
-                <p><strong>Research Intern</strong>, Salesforce Research, Palo Alto, CA
+                <p><strong>Salesforce Research</strong>, Palo Alto, CA
                   <span class="timeline-date">2019</span>
                 </p>
             
-                <p><strong>Research Intern</strong>, Microsoft AI & Research, Redmond, WA
+                <p><strong>Microsoft AI & Research</strong>, Redmond, WA
                   <span class="timeline-date">2018</span>
                 </p>
             
