@@ -16,14 +16,5 @@ show: 1
 </div>
 {% endfor %}
 
-<div id='top10'> 
-<h2> Top-10 cited Papers at Top Conferneces </h2> 
-According to <a href="https://www.paperdigest.org/best-paper-digest/">Paper Digest</a>
 
-<div style="display:none">
-{% cite zhang2023on shen2022how ahmad2021unified hu2020gptgnn alzanto2018generating zhao2018gender zhao2017men bolukbasi2016man HCLKS08 %} 
-</div>
-{% bibliography --cited %}
-
-</div>
 
