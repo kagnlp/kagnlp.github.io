@@ -113,11 +113,7 @@ layout: page
               {% assign month_diff = current_month | minus: entry.month %}
                {% assign month_diff_text = current_month | minus: entry.month_text %}
 
-              <div class="news-item">
-              {{year_diff}}, {{current_year}}, {{entry.year }}
-              {{ month_diff}}, {{month_diff_text}}, {{current_month}}, {{entry.month }}
-              </div>
-        
+      
               {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
                 <div class="news-month">
                   <span class="news-date">{{ entry.month_text }}, {{ entry.year }}</span>
@@ -645,6 +641,26 @@ layout: page
   text-decoration: none;
   margin-left: auto;
 }
+
+.news-month {
+  margin-bottom: 1.5rem;
+}
+
+.news-date {
+  display: block;        /* ensure it's on its own line */
+  font-weight: 600;      /* bold text */
+  font-size: 1rem;       /* slightly larger */
+  color: #1a1a1a;        /* darker or accent color */
+  margin-bottom: 0.5rem; /* spacing before items */
+}
+
+.news-item {
+  margin-left: 1rem;      /* indent items under the date */
+  line-height: 1.5;       /* better readability */
+  font-size: 0.95rem;     /* slightly smaller than date */
+  color: #333;            /* lighter than date */
+}
+
 
 .experience-timeline {
   position: relative;
