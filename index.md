@@ -214,42 +214,30 @@ layout: page
                 <span class="timeline-date">2022 - 2023</span>
               </div>
             </div>
-          </div>
-          <!-- Internship Group Header -->
-          <div class="timeline-group">
-            <span class="timeline-group-title">PhD Summer Research Internships</span>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <h4>Research Intern</h4>
-              <p>Google Research, Kirkland, WA</p>
-              <span class="timeline-date">2021</span>
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <h4>PhD Summer Research Internships</h4>
+            
+                <p><strong>Research Intern</strong>, Google Research, Kirkland, WA
+                  <span class="timeline-date">2021</span>
+                </p>
+            
+                <p><strong>Research Intern</strong>, Facebook AI Research (FAIR), Seattle, WA
+                  <span class="timeline-date">2020</span>
+                </p>
+            
+                <p><strong>Research Intern</strong>, Salesforce Research, Palo Alto, CA
+                  <span class="timeline-date">2019</span>
+                </p>
+            
+                <p><strong>Research Intern</strong>, Microsoft AI & Research, Redmond, WA
+                  <span class="timeline-date">2018</span>
+                </p>
+            
+              </div>
             </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <h4>Research Intern</h4>
-              <p>Facebook AI Research (FAIR), Seattle, WA</p>
-              <span class="timeline-date">2020</span>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <h4>Research Intern</h4>
-              <p>Salesforce Research, Palo Alto, CA</p>
-              <span class="timeline-date">2019</span>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <h4>Research Intern</h4>
-              <p>Microsoft AI & Research, Redmond, WA</p>
-              <span class="timeline-date">2018</span>
-            </div>
+
           </div>
         </section>
       </div>
