@@ -1,22 +1,14 @@
 - group : Core Faculty
   people :
     - name : Md. Rizwan Parvez
-      github: kaiweichang
-      url: "http://kwchang.net/"
-      title : Assistant Professor
-      description: Fairness and Robustness in NLP, ML in NLP
-    - name : Plus Lab -- Nanyun (Violet) Peng
-      description: Natural Language Generation, Information Extraction
-      github: VioletPeng
-      url: https://pluslabnlp.github.io
+      github: rizwan09
+      url: "https://rizwan09.github.io/"
+      title: Scientist
+      description: Applied NLP 
+   
 - group : Affliated Faculty
   people :
-    - name : Wei Wang
-      url : "http://web.cs.ucla.edu/~weiwang/"
-      scholar: UedS9LQAAAAJ
-    - name : Cho-Jui Hsieh
-      url : "http://web.cs.ucla.edu/~chohsieh/"
-      scholar: Wy89g4IAAAAJ
-    - name: Yizhou Sun
-      scholar: TQgOjK0AAAAJ
-      url: "http://web.cs.ucla.edu/~yzsun/"
+    - name: Mohammed Eunus Ali
+      url: "hhttps://research.monash.edu/en/persons/eunus-ali/"
+      scholar: wf8iK0sAAAAJ
+   
