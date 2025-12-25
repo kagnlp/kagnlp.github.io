@@ -98,44 +98,38 @@ layout: page
 
 
 
-      <section class="news-section">
+     <section class="news-section">
           <div class="section-header">
-            <h3><i class="fa fa-bullhorn"></i>News & Updates</h3>
+            <h3><i class="fa fa-bullhorn"></i> News & Updates</h3>
           </div>
         
-          
           {% assign current_year = site.time | date: "%Y" | plus: 0 %}
           {% assign current_month = site.time | date: "%m" | plus: 0 %}
-          
+        
           <div class="news-list">
             {% for entry in site.data.news[0].news %}
-              {% assign current_year = site.time | date: "%Y" | plus: 0 %}
-              {% assign current_month = site.time | date: "%m" | plus: 0 %}
-              
-              {% for entry in site.data.news[0].news %}
-                {% assign year_diff = current_year | minus: entry.year %}
-                {% assign month_diff = current_month | minus: entry.month %}
-              
-                {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
-                  <div class="news-month">
-                    <span class="news-date">{{ entry.month }}, {{ entry.year }}</span>
-                    {% for item in entry.items %}
-                      <div class="news-item">
-                        {{ item.desc | markdownify }}
-                      </div>
-                    {% endfor %}
-                  </div>
-                {% endif %}
-              {% endfor %}
-
-          </div>
-
+              {% assign year_diff = current_year | minus: entry.year %}
+              {% assign month_diff = current_month | minus: entry.month %}
         
+              {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
+                <div class="news-month">
+                  <span class="news-date">{{ entry.month }}, {{ entry.year }}</span>
+        
+                  {% for item in entry.items %}
+                    <div class="news-item">
+                      {{ item.desc | markdownify }}
+                    </div>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
         
           <div class="section-footer">
             <a href="news" class="btn btn-outline">Show All News</a>
           </div>
         </section>
+
 
 
 
