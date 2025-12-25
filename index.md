@@ -118,6 +118,34 @@ layout: page
 
             
           </div>
+
+          {% assign current_year = site.time | date: "%Y" | plus: 0 %}
+          {% assign current_month = site.time | date: "%m" | plus: 0 %}
+          
+          <div class="news-list">
+            {% for entry in site.data.news[0].news %}
+              {% assign entry_year = entry.date | slice: -4 | plus: 0 %}
+              {% assign entry_month_name = entry.date | split: "," | first %}
+              {% assign entry_month = entry_month_name | date: "%m" | plus: 0 %}
+          
+              {% assign month_diff = current_month | minus: entry_month %}
+              {% assign year_diff = current_year | minus: entry_year %}
+          
+              {% if year_diff == 0 and month_diff <= 3 and month_diff >= 0 %}
+                <div class="news-month">
+                  <span class="news-date">{{ entry.date }}</span>
+          
+                  {% for item in entry.items %}
+                    <div class="news-item">
+                      {{ item.desc | markdownify }}
+                    </div>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+
+        
         
           <div class="section-footer">
             <a href="news" class="btn btn-outline">Show All News</a>
@@ -175,7 +203,7 @@ layout: page
           {% for t in site.data.talk[1].talk %}
             {% if t.selected == true %}
               <div class="talk-item">
-                <a href=" Talk: {{ t.url | relative_url }}">{{ t.title }}  </a>
+                <a href="{{ t.url | relative_url }}">Talk:  {{ t.title }}  </a>
               </div>
             {% endif %}
           {% endfor %}
