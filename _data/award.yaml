@@ -38,6 +38,6 @@
   id : paper
   award :
    - title : Spotlight
-      venue : ICML 2025
-      desc : "MapEval: A Map-Based Evaluation of Geo-Spatial Reasoning in Foundation Models, Mahir Labib Dihan, Md Tanvir Hassan, Md Tanvir Parvez, Md Hasebul Hasan, Md Almash Alam, Muhammad Aamir Cheema, Mohammed Eunus Ali, and Md. Rizwan Parvez"
+     venue : ICML 2025
+     desc : "MapEval: A Map-Based Evaluation of Geo-Spatial Reasoning in Foundation Models, Mahir Labib Dihan, Md Tanvir Hassan, Md Tanvir Parvez, Md Hasebul Hasan, Md Almash Alam, Muhammad Aamir Cheema, Mohammed Eunus Ali, and Md. Rizwan Parvez"
     
