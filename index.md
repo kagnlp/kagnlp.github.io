@@ -114,8 +114,8 @@ layout: page
                {% assign month_diff_text = current_month | minus: entry.month_text %}
 
               <div class="news-item">
-              {{year_diff, current_year, entry.year }}
-              {{ month_diff, month_diff_text, current_month, entry.month }
+              {{year_diff}}, {{current_year}}, {{entry.year }}
+              {{ month_diff}}, {{month_diff_text}}, {{current_month}}, {{entry.month }}
               </div>
         
               {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
