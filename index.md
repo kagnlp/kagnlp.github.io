@@ -103,22 +103,7 @@ layout: page
             <h3><i class="fa fa-bullhorn"></i>News & Updates</h3>
           </div>
         
-          <div class="news-list">
-
           
-            <div class="news-item">
-              <span class="news-text">
-                Our paper <strong>Xolver: Complex Reasoning with Holistic Experience Learning</strong> accepted to <strong>NeurIPS 2025</strong>.
-              </span>
-              <span class="news-year">2025</span>
-            </div>
-        
-
-
-
-            
-          </div>
-
           {% assign current_year = site.time | date: "%Y" | plus: 0 %}
           {% assign current_month = site.time | date: "%m" | plus: 0 %}
           
