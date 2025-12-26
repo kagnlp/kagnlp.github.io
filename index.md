@@ -115,8 +115,8 @@ layout: page
 
       
               {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
-                <div class="news-month">
-                  <span class="news-date">{{ entry.month_text }}, {{ entry.year }}</span>
+                <div class="news-name">
+                  <span class="news-year">{{ entry.month_text }}, {{ entry.year }}</span>
         
                   {% for item in entry.items %}
                     <div class="news-item">
@@ -553,11 +553,11 @@ layout: page
   margin-bottom: 2rem;
 }
 
-.awards-list, .talks-list {
+.awards-list, .talks-list, .news-list {
   space-y: 1rem;
 }
 
-.award-item {
+.award-item, .news-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -567,12 +567,12 @@ layout: page
   margin-bottom: 0.5rem;
 }
 
-.award-name {
+.award-name, .news-name {
   font-weight: 600;
   color: #333;
 }
 
-.award-year {
+.award-year, .news-year {
   color: #8B0000;
   font-weight: 500;
   background: #fff5f5;
@@ -640,25 +640,6 @@ layout: page
   color: #8B0000;
   text-decoration: none;
   margin-left: auto;
-}
-
-.news-month {
-  margin-bottom: 1.5rem;
-}
-
-.news-date {
-  display: block;        /* ensure it's on its own line */
-  font-weight: 600;      /* bold text */
-  font-size: 1rem;       /* slightly larger */
-  color: #1a1a1a;        /* darker or accent color */
-  margin-bottom: 0.5rem; /* spacing before items */
-}
-
-.news-item {
-  margin-left: 1rem;      /* indent items under the date */
-  line-height: 1.5;       /* better readability */
-  font-size: 0.95rem;     /* slightly smaller than date */
-  color: #333;            /* lighter than date */
 }
 
 
