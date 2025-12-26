@@ -103,21 +103,16 @@ layout: page
         <h3><i class="fa fa-bullhorn"></i> News & Updates</h3>
       </div>
     
-      {% assign current_year = site.time | date: "%Y" | plus: 0 %}
-      {% assign current_month = site.time | date: "%m" | plus: 0 %}
-      {% assign now_index = current_year | times: 12 | plus: current_month %}
+      {% assign year_diff = current_year | minus: entry.year %} 
+      {% assign month_diff = current_month | minus: entry.month %} 
+      {% assign month_diff_text = current_month | minus: entry.month_text %} {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
     
-      <div class="news-list">
-        {% for entry in site.data.news[0].news %}
-          {% assign entry_index = entry.year | times: 12 | plus: entry.month %}
-          {% assign month_diff = now_index | minus: entry_index %}
-    
-          {% if month_diff >= 0 and month_diff <= 3 %}
+      {% if year_diff==0 and month_diff >= 0 and month_diff <= 3 %}
             <div class="news-item">
               <span class="news-year">{{ entry.month_text }}, {{ entry.year }}</span>
     
               {% for item in entry.items %}
-                <div class="news">
+                <div class="news-desc">
                   {{ item.desc | markdownify }}
                 </div>
               {% endfor %}
@@ -599,7 +594,7 @@ layout: page
   margin-bottom: 0.5rem;
 }
 
-.news {
+.news-desc {
   font-size: 1rem;
   line-height: 1.6;
   color: #333;
