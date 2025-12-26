@@ -98,34 +98,7 @@ layout: page
 
 
 
-    <section class="news-section">
-      <div class="section-header">
-        <h3><i class="fa fa-bullhorn"></i> News & Updates</h3>
-      </div>
-    
-      {% assign year_diff = current_year | minus: entry.year %} 
-      {% assign month_diff = current_month | minus: entry.month %} 
-      {% assign month_diff_text = current_month | minus: entry.month_text %} {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
-    
-      {% if year_diff==0 and month_diff >= 0 and month_diff <= 3 %}
-            <div class="news-item">
-              <span class="news-year">{{ entry.month_text }}, {{ entry.year }}</span>
-    
-              {% for item in entry.items %}
-                <div class="news-desc">
-                  {{ item.desc | markdownify }}
-                </div>
-              {% endfor %}
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    
-      <div class="section-footer">
-        <a href="news" class="btn btn-outline">Show All News</a>
-      </div>
-    </section>
-
+   
 
 
 
