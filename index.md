@@ -115,11 +115,11 @@ layout: page
 
       
               {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
-                <div class="news-name">
+                <div class="news-item">
                   <span class="news-year">{{ entry.month_text }}, {{ entry.year }}</span>
         
                   {% for item in entry.items %}
-                    <div class="news-item">
+                    <div class="talk-item">
                       {{ item.desc | markdownify }}
                     </div>
                   {% endfor %}
@@ -545,7 +545,7 @@ layout: page
   }
 }
 
-.papers-section, .awards-section, .talks-section {
+.papers-section, .awards-section, .talks-section, .news-section {
   background: white;
   border-radius: 12px;
   padding: 2rem;
