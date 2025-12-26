@@ -556,7 +556,7 @@ layout: page
   space-y: 1rem;
 }
 
-.award-item, .news-item {
+.award-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -566,12 +566,12 @@ layout: page
   margin-bottom: 0.5rem;
 }
 
-.award-name, .news-name {
+.award-name {
   font-weight: 600;
   color: #333;
 }
 
-.award-year, .news-year {
+.award-year {
   color: #8B0000;
   font-weight: 500;
   background: #fff5f5;
@@ -579,6 +579,32 @@ layout: page
   border-radius: 15px;
   font-size: 0.9rem;
 }
+
+.news-item {
+  display: block;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.news-year {
+  color: #8B0000;
+  font-weight: 600;
+  background: #fff5f5;
+  padding: 0.25rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.news {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
 
 .talk-item {
   padding: 1rem;
