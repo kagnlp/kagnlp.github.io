@@ -512,7 +512,7 @@ layout: page
   }
 }
 
-.papers-section, .awards-section, .talks-section, .news-section {
+.papers-section, .awards-section, .talks-section {
   background: white;
   border-radius: 12px;
   padding: 2rem;
@@ -520,7 +520,7 @@ layout: page
   margin-bottom: 2rem;
 }
 
-.awards-list, .talks-list, .news-list {
+.awards-list, .talks-list {
   space-y: 1rem;
 }
 
@@ -547,32 +547,6 @@ layout: page
   border-radius: 15px;
   font-size: 0.9rem;
 }
-
-.news-item {
-  display: block;
-  padding: 1rem;
-  background: #f8f9fa;
-  border-radius: 8px;
-  margin-bottom: 0.75rem;
-}
-
-.news-year {
-  color: #8B0000;
-  font-weight: 600;
-  background: #fff5f5;
-  padding: 0.25rem 0.8rem;
-  border-radius: 15px;
-  font-size: 0.9rem;
-  display: inline-block;
-  margin-bottom: 0.5rem;
-}
-
-.news-desc {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #333;
-}
-
 
 .talk-item {
   padding: 1rem;
