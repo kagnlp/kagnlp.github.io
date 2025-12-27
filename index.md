@@ -99,7 +99,7 @@ layout: page
 
 
 
-<!--
+
 <div class="col-md-6" markdown="1" id="main-profile">
 <div class="pre-scrollable" markdown="1" style="height:400px; max-height:400px;">
 
@@ -170,7 +170,7 @@ layout: page
 </div>
 <hr/>
 
-!-->
+
 
 
 <!--
