@@ -168,7 +168,7 @@ layout: page
 
 </div>
 </div>
-<hr/>
+
 
 
 
