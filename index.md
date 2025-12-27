@@ -74,6 +74,102 @@ layout: page
     </div>
   </section>
 
+
+
+
+<section class="row">
+
+  <!-- LEFT COLUMN -->
+  <div class="col-md-6" id="main-profile-left">
+    <div class="pre-scrollable" style="height:400px; max-height:400px;">
+
+      <h3><i class="fa fa-plane"></i> Upcoming Travel</h3>
+      <ul>
+        {% assign nowunix = 'now' | date: '%s' %}
+        {% for t in site.data.news[0].news %}
+          {% if t.end %}
+            {% assign traveltime = t.end | date: '%s' %}
+            {% if traveltime > nowunix %}
+              <li>
+                {% if t.start %}
+                  {{ t.start }} – {{ t.end }}:
+                {% else %}
+                  {{ t.end }}:
+                {% endif %}
+                <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
+              </li>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <h3><i class="fa fa-newspaper-o"></i> Recent News</h3>
+      {% for d in site.data.news[1].news %}
+        <h4>{{ d.date | date: '%b %Y' }}</h4>
+        <ul>
+          {% for t in d.items %}
+            <li>{{ t.desc | markdownify | strip_html }}</li>
+          {% endfor %}
+        </ul>
+      {% endfor %}
+
+    </div>
+
+    <div class="text-center mt-2">
+      <button class="see-more">Scroll down to see more</button>
+    </div>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div class="col-md-6" id="main-profile-right">
+    <div class="pre-scrollable" style="height:400px; max-height:400px;">
+
+      <h2>News</h2>
+
+      <a href="https://twitter.com/kaiwei_chang"
+         class="twitter-follow-button"
+         data-show-count="false">
+        Follow @kaiwei_chang
+      </a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+      {% assign posts = paginator.posts | default: site.posts %}
+      <ul class="posts-list">
+        {% for post in posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% if paginator.total_pages > 1 %}
+        <ul class="pagination main-pager">
+          {% if paginator.previous_page %}
+            <li class="page-item previous">
+              <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
+                &larr; Newer Posts
+              </a>
+            </li>
+          {% endif %}
+          {% if paginator.next_page %}
+            <li class="page-item next">
+              <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
+                Older Posts &rarr;
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      {% endif %}
+
+    </div>
+  </div>
+
+</section>
+
+
+
+  
+
   <div class="two-column-layout">
     <div class="left-column">
       <section class="papers-section">
@@ -98,76 +194,6 @@ layout: page
 
 
 
-
-
-<div class="col-md-6" markdown="1" id="main-profile">
-<div class="pre-scrollable" markdown="1" style="height:400px; max-height:400px;">
-
-### <i class="fa fa-plane"></i> Upcoming Travel
-<ul>
-{% for t in site.data.news[0].news %}
-{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-{% capture traveltime %}{{t.end | date: '%s'}}{% endcapture %}
-{% if traveltime > nowunix %}
-{% if t.start %}
-<li> {{ t.start }} -- {{ t.end }}:  <a href="{{ t.url | relative_url }}">{{ t.title }}</a> </li>
-{% else %}
-<li> {{ t.end }}:  <a href="{{ t.url | relative_url }}">{{ t.title }}</a> </li>
-{% endif %}
-{% endif %}
-{% endfor %}
-</ul>
-### <i class="fa fa-newspaper-o"></i> Recent News
-{% for d in site.data.news[1].news %}
-<h4>{{ d.date | date: '%b %Y' }}</h4>
-<ul>
-{% for t in d.items %}
- <li> {{ t.desc | markdownify | remove: '<p>' | remove: '</p>'}} </li>
-{% endfor %}
-</ul>
-{% endfor %}
-</div>
-<div class="col-12 text-center">
-<button class="see-more">Scroll down to see more</button>
-</div>
-
-</div>
-<div class="col-md-6" markdown="1" id="main-profile">
-<div class="pre-scrollable" markdown="1" style="height:400px; max-height:400px;">
-<h2> News </h2>
-<a href="https://twitter.com/kaiwei_chang?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @kaiwei_chang</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-{% assign posts = paginator.posts | default: site.posts %}
-<div class="posts-list">
-<ul>
-  {% for post in posts %}
-<li>
- <a  href="{{ post.url | relative_url }}">	{{ post.title }} </a> </li>
-  {% endfor %}
-</ul>
-</div>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pagination main-pager">
-  {% if paginator.previous_page %}
-  <li class="page-item previous">
-    <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="page-item next">
-    <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
-
-
-</div>
-
-</div>
-</div>
 
 
 
