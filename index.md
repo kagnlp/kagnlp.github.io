@@ -75,10 +75,9 @@ layout: page
   </section>
 
 
-<!-- ROW 1: Achievements + News -->
 <section class="row">
 
-  <!-- LEFT: Selected Achievements -->
+  <!-- LEFT COLUMN: Selected Achievements -->
   <div class="col-md-6">
     <section class="awards-section">
       <div class="section-header">
@@ -122,8 +121,10 @@ layout: page
     </section>
   </div>
 
-  <!-- RIGHT: News -->
+  <!-- RIGHT COLUMN: News + Talks -->
   <div class="col-md-6">
+
+    <!-- News -->
     <section class="news-section">
       <div class="section-header">
         <h2><i class="fa fa-bullhorn"></i> News</h2>
@@ -142,14 +143,9 @@ layout: page
         <a href="news" class="btn btn-outline">All News</a>
       </div>
     </section>
-  </div>
 
-</section>
-
-<!-- ROW 2: Talks (full width) -->
-<section class="row mt-4">
-  <div class="col-md-12">
-    <section class="talks-section">
+    <!-- Selected Talks -->
+    <section class="talks-section mt-4">
       <div class="section-header">
         <h2><i class="fa fa-microphone"></i> Selected Talks</h2>
       </div>
@@ -181,10 +177,10 @@ layout: page
         <a href="talks" class="btn btn-outline">Show More Talks</a>
       </div>
     </section>
+
   </div>
+
 </section>
-
-
 
 
  <section class="papers-section">
