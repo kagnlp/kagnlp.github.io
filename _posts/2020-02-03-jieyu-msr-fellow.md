@@ -1,7 +1,29 @@
 ---
-title: Announcement
+title: Our Group @ ML Conferences 2025
 layout: post
 css: "/css/academicons.css"
-tag: [award]
+tag: [conference]
 ---
-Text 
+
+We present 1 Spotlight paper at [ICML 2025](https://icml.cc/Conferences/2025), 1 long at [NeurIPS 2025](https://neurips.cc/Conferences/2024) and 1 paper at [COLM 2025](https://colmweb.org/) .
+
+## ICML 2025 Papers
+<div style="display:none">
+{% cite dihan2025mapeval %} 
+</div>
+{% bibliography --cited --template publications-details %}
+
+
+## NeurIPS 2025 Papers
+<div style="display:none">
+{% cite salman20254debate %} 
+</div>
+{% bibliography --cited --template publications-details %}
+
+
+## COLM 2025 Papers
+<div style="display:none">
+{% cite salman20254xteaming %} 
+</div>
+{% bibliography --cited --template publications-details %}
+
