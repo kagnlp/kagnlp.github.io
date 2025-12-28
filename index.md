@@ -119,12 +119,13 @@ layout: page
           <span class="award-year">2015</span>
         </div>
 
-
+        <!--
         <div class="award-item">
           <span class="award-name">Dean’s List Award, BUET</span>
           <span class="award-year">2013-2015</span>
         </div>
-
+        -->
+        
         <div class="award-item">
           <span class="award-name">Best Demo Award: Workshop on Mobile Computing and Human Computer Interaction </span>
           <span class="award-year">2014</span>
