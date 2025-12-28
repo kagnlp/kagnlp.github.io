@@ -75,7 +75,6 @@ layout: page
   </section>
 
 
-
 <!-- ROW 1: Achievements + News -->
 <section class="row">
 
@@ -139,18 +138,51 @@ layout: page
         {% endfor %}
       </ul>
 
+      <div class="section-footer">
+        <a href="news" class="btn btn-outline">All News</a>
+      </div>
+    </section>
+  </div>
 
+</section>
 
+<!-- ROW 2: Talks (full width) -->
+<section class="row mt-4">
+  <div class="col-md-12">
+    <section class="talks-section">
+      <div class="section-header">
+        <h2><i class="fa fa-microphone"></i> Selected Talks</h2>
+      </div>
 
+      <div class="talks-list">
+        {% for t in site.data.talk[0].talk %}
+          {% if t.selected %}
+            <div class="talk-item">
+              <a href="{{ t.url | relative_url }}">
+                Tutorial: {{ t.title }}
+              </a>
+              <span class="venue"> — {{ t.venue }}</span>
+            </div>
+          {% endif %}
+        {% endfor %}
 
+        {% for t in site.data.talk[1].talk %}
+          {% if t.selected %}
+            <div class="talk-item">
+              <a href="{{ t.url | relative_url }}">
+                Talk: {{ t.title }}
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
 
-
-
-
-
-
-
-
+      <div class="section-footer">
+        <a href="talks" class="btn btn-outline">Show More Talks</a>
+      </div>
+    </section>
+  </div>
+</section>
 
 
 
