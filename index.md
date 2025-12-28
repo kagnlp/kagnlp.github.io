@@ -77,115 +77,99 @@ layout: page
 
 
 
+
+
+
+
 <section class="row">
 
   <!-- LEFT COLUMN -->
-  <section class="awards-section">
-        <div class="section-header">
-          <h3><i class="fa fa-trophy"></i>Selected Achievements</h3>
-        </div>
-        <div class="awards-list">
-          <div class="award-item">
-            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (AC Rate <2%) </a>  </span>
-            <span class="award-year">2025</span>
-          </div>
-          <div class="award-item">
-            <span class="award-name">Open-RAG in <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/"> MarkTechPost Coverage!! </a> </span>
-            <span class="award-year">2024</span>
-          </div>
-          <div class="award-item">
-            <span class="award-name">UCLA Graduate Fellowships</span>
-            <span class="award-year">2017, 2018</span>
-          </div>
-          <div class="award-item">
-            <span class="award-name">ACL and EMNLP Student Travel Grant</span>
-            <span class="award-year">2018, 2021</span>
-          </div>
-          
-        </div>
-        <div class="section-footer">
-          <a href="awards" class="btn btn-outline">Show More Awards</a>
-        </div>
-      </section>
-
-      <section class="talks-section">
-        <div class="section-header">
-          <h3><i class="fa fa-microphone"></i> Selected Talks</h3>
-        </div>
-        <div class="talks-list">
-          {% for t in site.data.talk[0].talk %}
-            {% if t.selected == true %}
-              <div class="talk-item">
-                <a href="{{ t.url | relative_url }}"> Tutorial: {{ t.title }}</a>
-                <span class="venue"> — {{ t.venue }}</span>
-              </div>
-            {% endif %}
-          {% endfor %}
-          {% for t in site.data.talk[1].talk %}
-            {% if t.selected == true %}
-              <div class="talk-item">
-                <a href="{{ t.url | relative_url }}">Talk:  {{ t.title }}  </a>
-              </div>
-            {% endif %}
-          {% endfor %}
-        </div>
-        <div class="section-footer">
-          <a href="talks" class="btn btn-outline">Show More Talks</a>
-        </div>
-      </section>
-    </div>
-
-  </div>
-  <!--
   <div class="col-md-6" id="main-profile-left">
-   
-    <div class="pre-scrollable" style="height:300px; max-height:300px;">
 
-      <h3><i class="fa fa-plane"></i> Upcoming Travel</h3>
-      <ul>
-        {% assign nowunix = 'now' | date: '%s' %}
-        {% for t in site.data.news[0].news %}
-          {% if t.end %}
-            {% assign traveltime = t.end | date: '%s' %}
-            {% if traveltime > nowunix %}
-              <li>
-                {% if t.start %}
-                  {{ t.start }} – {{ t.end }}:
-                {% else %}
-                  {{ t.end }}:
-                {% endif %}
-                <a href="{{ t.url | relative_url }}">{{ t.title }}</a>
-              </li>
-            {% endif %}
+    <!-- Selected Achievements -->
+    <section class="awards-section">
+      <div class="section-header">
+        <h3><i class="fa fa-trophy"></i> Selected Achievements</h3>
+      </div>
+
+      <div class="awards-list">
+        <div class="award-item">
+          <span class="award-name">
+            <a href="https://icml.cc/virtual/2025/poster/44415">
+              ICML Spotlight!! (AC Rate &lt; 2%)
+            </a>
+          </span>
+          <span class="award-year">2025</span>
+        </div>
+
+        <div class="award-item">
+          <span class="award-name">
+            Open-RAG in
+            <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/">
+              MarkTechPost Coverage!!
+            </a>
+          </span>
+          <span class="award-year">2024</span>
+        </div>
+
+        <div class="award-item">
+          <span class="award-name">UCLA Graduate Fellowships</span>
+          <span class="award-year">2017, 2018</span>
+        </div>
+
+        <div class="award-item">
+          <span class="award-name">ACL and EMNLP Student Travel Grant</span>
+          <span class="award-year">2018, 2021</span>
+        </div>
+      </div>
+
+      <div class="section-footer">
+        <a href="awards" class="btn btn-outline">Show More Awards</a>
+      </div>
+    </section>
+
+    <!-- Selected Talks -->
+    <section class="talks-section mt-4">
+      <div class="section-header">
+        <h3><i class="fa fa-microphone"></i> Selected Talks</h3>
+      </div>
+
+      <div class="talks-list">
+        {% for t in site.data.talk[0].talk %}
+          {% if t.selected == true %}
+            <div class="talk-item">
+              <a href="{{ t.url | relative_url }}">
+                Tutorial: {{ t.title }}
+              </a>
+              <span class="venue"> — {{ t.venue }}</span>
+            </div>
           {% endif %}
         {% endfor %}
-      </ul>
 
-      <h3><i class="fa fa-newspaper-o"></i> Recent News</h3>
-      {% for d in site.data.news[1].news %}
-        <h4>{{ d.date | date: '%b %Y' }}</h4>
-        <ul>
-          {% for t in d.items %}
-            <li>{{ t.desc | markdownify | strip_html }}</li>
-          {% endfor %}
-        </ul>
-      {% endfor %}
+        {% for t in site.data.talk[1].talk %}
+          {% if t.selected == true %}
+            <div class="talk-item">
+              <a href="{{ t.url | relative_url }}">
+                Talk: {{ t.title }}
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
 
-    </div>
+      <div class="section-footer">
+        <a href="talks" class="btn btn-outline">Show More Talks</a>
+      </div>
+    </section>
 
-    <div class="text-center mt-2">
-      <button class="see-more">Scroll down to see more</button>
-    </div>
   </div>
-
-   -->
 
   <!-- RIGHT COLUMN -->
   <div class="col-md-6" id="main-profile-right">
-    <div class="pre-scrollable" style="height:200px; max-height:200px;">
 
-      <h2>News</h2>
+    <h3>News</h3>
 
+    <div class="pre-scrollable" style="max-height: 300px;">
       {% assign posts = paginator.posts | default: site.posts %}
       <ul class="posts-list">
         {% for post in posts %}
@@ -194,30 +178,36 @@ layout: page
           </li>
         {% endfor %}
       </ul>
-
-      {% if paginator.total_pages > 1 %}
-        <ul class="pagination main-pager">
-          {% if paginator.previous_page %}
-            <li class="page-item previous">
-              <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
-                &larr; Newer Posts
-              </a>
-            </li>
-          {% endif %}
-          {% if paginator.next_page %}
-            <li class="page-item next">
-              <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
-                Older Posts &rarr;
-              </a>
-            </li>
-          {% endif %}
-        </ul>
-      {% endif %}
-
     </div>
+
+    {% if paginator.total_pages > 1 %}
+      <ul class="pagination main-pager">
+        {% if paginator.previous_page %}
+          <li class="page-item previous">
+            <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
+              &larr; Newer Posts
+            </a>
+          </li>
+        {% endif %}
+        {% if paginator.next_page %}
+          <li class="page-item next">
+            <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
+              Older Posts &rarr;
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+    {% endif %}
+
   </div>
 
 </section>
+
+
+
+
+
+
 
 
 
