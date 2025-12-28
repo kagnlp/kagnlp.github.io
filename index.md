@@ -89,7 +89,7 @@ layout: page
     <!-- Selected Achievements -->
     <section class="awards-section">
       <div class="section-header">
-        <h3><i class="fa fa-trophy"></i> Selected Achievements</h3>
+        <h2><i class="fa fa-trophy"></i> Selected Achievements</h2>
       </div>
 
       <div class="awards-list">
@@ -131,7 +131,7 @@ layout: page
     <!-- Selected Talks -->
     <section class="talks-section mt-4">
       <div class="section-header">
-        <h3><i class="fa fa-microphone"></i> Selected Talks</h3>
+        <h2><i class="fa fa-microphone"></i> Selected Talks</h2>
       </div>
 
       <div class="talks-list">
@@ -214,7 +214,7 @@ layout: page
  <section class="papers-section">
 
   <div class="section-header">
-    <h3><i class="fa fa-book-open"></i> Selected Recent Papers</h3>
+    <h2><i class="fa fa-book-open"></i> Selected Recent Papers</h2>
     <div class="header-links">
       <a href="publications_area/">by topics</a> |
       <a href="publications/">by year</a> |
@@ -247,7 +247,7 @@ layout: page
       <div class="left-column">
         <section>
           <div class="section-header">
-            <h3><i class="fa fa-briefcase"></i> Experience</h3>
+            <h2><i class="fa fa-briefcase"></i> Experience</h2>
             <a href="https://drive.google.com/file/d/1bifUIeFKGY4MMkx28jh_egyzGyvZ8x4Q/view?usp=sharing" class="cv-link">Download CV</a>
           </div>
           <div class="experience-timeline">
@@ -298,7 +298,7 @@ layout: page
       <div class="right-column">
         <section>
           <div class="section-header">
-            <h3><i class="fa fa-chalkboard-teacher"></i>Teaching Experience</h3>
+            <h2><i class="fa fa-chalkboard-teacher"></i>Teaching Experience</h2>
           </div>
           <div class="teaching-list">
             <div class="teaching-item">
@@ -314,7 +314,7 @@ layout: page
 
         <section>
           <div class="section-header">
-            <h3><i class="fa fa-hands-helping"></i> Service</h3>
+            <h2><i class="fa fa-hands-helping"></i> Service</h2>
           </div>
           <div class="service-list">
             <div class="service-item">
