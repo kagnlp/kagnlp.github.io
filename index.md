@@ -69,24 +69,18 @@ layout: page
 
   <section class="research-group-section">
     <div class="section-header">
-      <h2><i class="fa fa-users"></i> <a href="members">KAGNLP Group</a></h2>
+      <h2><i class="fa fa-users"></i> <a href="members">Our Research Group</a></h2>
       <p class="section-subtitle">See our amazing team members</p>
     </div>
   </section>
 
 
 
-
-
-
-
-
+<!-- ROW 1: Achievements + News -->
 <section class="row">
 
-  <!-- LEFT COLUMN -->
-  <div class="col-md-6" id="main-profile-left">
-
-    <!-- Selected Achievements -->
+  <!-- LEFT: Selected Achievements -->
+  <div class="col-md-6">
     <section class="awards-section">
       <div class="section-header">
         <h2><i class="fa fa-trophy"></i> Selected Achievements</h2>
@@ -127,85 +121,31 @@ layout: page
         <a href="awards" class="btn btn-outline">Show More Awards</a>
       </div>
     </section>
-
-    <!-- Selected Talks   -->
-    <section class="talks-section mt-4">
-      <div class="section-header">
-        <h2><i class="fa fa-microphone"></i> Selected Talks</h2>
-      </div>
-
-      <div class="talks-list">
-        {% for t in site.data.talk[0].talk %}
-          {% if t.selected == true %}
-            <div class="talk-item">
-              <a href="{{ t.url | relative_url }}">
-                Tutorial: {{ t.title }}
-              </a>
-              <span class="venue"> — {{ t.venue }}</span>
-            </div>
-          {% endif %}
-        {% endfor %}
-
-        {% for t in site.data.talk[1].talk %}
-          {% if t.selected == true %}
-            <div class="talk-item">
-              <a href="{{ t.url | relative_url }}">
-                Talk: {{ t.title }}
-              </a>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-
-      <div class="section-footer">
-        <a href="talks" class="btn btn-outline">Show More Talks</a>
-      </div>
-    </section>
-
-  
-
   </div>
 
-  <!-- RIGHT COLUMN -->
-  <div class="col-md-6" id="main-profile-right">
+  <!-- RIGHT: News -->
+  <div class="col-md-6">
+    <section class="news-section">
+      <div class="section-header">
+        <h2><i class="fa fa-bullhorn"></i> News</h2>
+      </div>
 
-    <h3>News</h3>
-
-    <div class="pre-scrollable" style="max-height: 300px;">
-      {% assign posts = paginator.posts | default: site.posts %}
       <ul class="posts-list">
-        {% for post in posts %}
+        {% assign posts = paginator.posts | default: site.posts %}
+        {% for post in posts limit:5 %}
           <li>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
       </ul>
-    </div>
-
-    {% if paginator.total_pages > 1 %}
-      <ul class="pagination main-pager">
-        {% if paginator.previous_page %}
-          <li class="page-item previous">
-            <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
-              &larr; Newer Posts
-            </a>
-          </li>
-        {% endif %}
-        {% if paginator.next_page %}
-          <li class="page-item next">
-            <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
-              Older Posts &rarr;
-            </a>
-          </li>
-        {% endif %}
-      </ul>
-    {% endif %}
-
-  </div>
 
 
 
-</section>
+
+
+
+
+
 
 
 
@@ -221,7 +161,7 @@ layout: page
     <h2><i class="fa fa-book-open"></i> Selected Recent Papers</h2>
     <div class="header-links">
      <!-- <a href="publications_area/">by topics</a> | -->
-      <a href="publications/">By year</a> |
+      <a href="publications/">   By year</a> |
       <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">
         Google Scholar
       </a>
