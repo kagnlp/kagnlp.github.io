@@ -216,7 +216,7 @@ layout: page
   <div class="section-header">
     <h2><i class="fa fa-book-open"></i> Selected Recent Papers</h2>
     <div class="header-links">
-      <a href="publications_area/">by topics</a> |
+     <!-- <a href="publications_area/">by topics</a> | -->
       <a href="publications/">by year</a> |
       <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">
         Google Scholar
