@@ -80,8 +80,45 @@ layout: page
 <section class="row">
 
   <!-- LEFT COLUMN -->
+  <div class="col-md-6" id="main-profile-right">
+    <div class="pre-scrollable" style="height:300px; max-height:300px;">
+
+      <h2>News</h2>
+
+      {% assign posts = paginator.posts | default: site.posts %}
+      <ul class="posts-list">
+        {% for post in posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% if paginator.total_pages > 1 %}
+        <ul class="pagination main-pager">
+          {% if paginator.previous_page %}
+            <li class="page-item previous">
+              <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
+                &larr; Newer Posts
+              </a>
+            </li>
+          {% endif %}
+          {% if paginator.next_page %}
+            <li class="page-item next">
+              <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
+                Older Posts &rarr;
+              </a>
+            </li>
+          {% endif %}
+        </ul>
+      {% endif %}
+
+    </div>
+  </div>
+  <!--
   <div class="col-md-6" id="main-profile-left">
-    <div class="pre-scrollable" style="height:400px; max-height:400px;">
+   
+    <div class="pre-scrollable" style="height:300px; max-height:300px;">
 
       <h3><i class="fa fa-plane"></i> Upcoming Travel</h3>
       <ul>
@@ -120,18 +157,71 @@ layout: page
     </div>
   </div>
 
+   -->
+
   <!-- RIGHT COLUMN -->
+  <section class="awards-section">
+        <div class="section-header">
+          <h3><i class="fa fa-trophy"></i>Selected Achievements</h3>
+        </div>
+        <div class="awards-list">
+          <div class="award-item">
+            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (AC Rate <2%) </a>  </span>
+            <span class="award-year">2025</span>
+          </div>
+          <div class="award-item">
+            <span class="award-name">Open-RAG in <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/"> MarkTechPost Coverage!! </a> </span>
+            <span class="award-year">2024</span>
+          </div>
+          <div class="award-item">
+            <span class="award-name">UCLA Graduate Fellowships</span>
+            <span class="award-year">2017, 2018</span>
+          </div>
+          <div class="award-item">
+            <span class="award-name">ACL and EMNLP Student Travel Grant</span>
+            <span class="award-year">2018, 2021</span>
+          </div>
+          
+        </div>
+        <div class="section-footer">
+          <a href="awards" class="btn btn-outline">Show More Awards</a>
+        </div>
+      </section>
+
+      <section class="talks-section">
+        <div class="section-header">
+          <h3><i class="fa fa-microphone"></i> Selected Talks</h3>
+        </div>
+        <div class="talks-list">
+          {% for t in site.data.talk[0].talk %}
+            {% if t.selected == true %}
+              <div class="talk-item">
+                <a href="{{ t.url | relative_url }}"> Tutorial: {{ t.title }}</a>
+                <span class="venue"> — {{ t.venue }}</span>
+              </div>
+            {% endif %}
+          {% endfor %}
+          {% for t in site.data.talk[1].talk %}
+            {% if t.selected == true %}
+              <div class="talk-item">
+                <a href="{{ t.url | relative_url }}">Talk:  {{ t.title }}  </a>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="section-footer">
+          <a href="talks" class="btn btn-outline">Show More Talks</a>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+  <!--
   <div class="col-md-6" id="main-profile-right">
-    <div class="pre-scrollable" style="height:400px; max-height:400px;">
+    <div class="pre-scrollable" style="height:300px; max-height:300px;">
 
       <h2>News</h2>
-
-      <a href="https://twitter.com/kaiwei_chang"
-         class="twitter-follow-button"
-         data-show-count="false">
-        Follow @kaiwei_chang
-      </a>
-      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
       {% assign posts = paginator.posts | default: site.posts %}
       <ul class="posts-list">
@@ -163,6 +253,8 @@ layout: page
 
     </div>
   </div>
+
+  -->
 
 </section>
 
