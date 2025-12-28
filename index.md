@@ -113,6 +113,27 @@ layout: page
           <span class="award-name">ACL and EMNLP Student Travel Grant</span>
           <span class="award-year">2018, 2021</span>
         </div>
+
+        <div class="award-item">
+          <span class="award-name">Best Demo Award: Bangladesh Inter-University System Design and Development </span>
+          <span class="award-year">2015</span>
+        </div>
+
+
+        <div class="award-item">
+          <span class="award-name">Dean’s List Award, BUET</span>
+          <span class="award-year">2013-2015</span>
+        </div>
+
+        <div class="award-item">
+          <span class="award-name">Best Demo Award: Workshop on Mobile Computing and Human Computer Interaction </span>
+          <span class="award-year">2014</span>
+        </div>
+
+
+        
+
+        
       </div>
 
       <div class="section-footer">
