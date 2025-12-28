@@ -128,7 +128,7 @@ layout: page
       </div>
     </section>
 
-    <!-- Selected Talks 
+    <!-- Selected Talks   -->
     <section class="talks-section mt-4">
       <div class="section-header">
         <h2><i class="fa fa-microphone"></i> Selected Talks</h2>
@@ -162,7 +162,7 @@ layout: page
       </div>
     </section>
 
-    -->
+  
 
   </div>
 
@@ -204,39 +204,6 @@ layout: page
   </div>
 
 
-   <section class="talks-section mt-4">
-      <div class="section-header">
-        <h2><i class="fa fa-microphone"></i> Selected Talks</h2>
-      </div>
-
-      <div class="talks-list">
-        {% for t in site.data.talk[0].talk %}
-          {% if t.selected == true %}
-            <div class="talk-item">
-              <a href="{{ t.url | relative_url }}">
-                Tutorial: {{ t.title }}
-              </a>
-              <span class="venue"> — {{ t.venue }}</span>
-            </div>
-          {% endif %}
-        {% endfor %}
-
-        {% for t in site.data.talk[1].talk %}
-          {% if t.selected == true %}
-            <div class="talk-item">
-              <a href="{{ t.url | relative_url }}">
-                Talk: {{ t.title }}
-              </a>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-
-      <div class="section-footer">
-        <a href="talks" class="btn btn-outline">Show More Talks</a>
-      </div>
-    </section>
-    
 
 </section>
 
