@@ -211,135 +211,36 @@ layout: page
 
 
 
-  <div class="two-column-layout">
-    <div class="left-column">
-      <section class="papers-section">
-        <div class="section-header">
-          <h3><i class="fa fa-book-open"></i> Selected Recent Papers</h3>
-          <div class="header-links">
-            <a href="publications_area/">by topics</a> | 
-            <a href="publications/">by year</a> | 
-            <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">Google Scholar</a>
-          </div>
-        </div>
-        <div class="papers-list">
-          {% bibliography --file ref -q @*[selected=true]* --sort_by year --order ascending %}
-        </div>
-        <div class="section-footer">
-          <a href="publications" class="btn btn-outline">Show More Papers</a>
-        </div>
-      </section>
+ <section class="papers-section">
+
+  <div class="section-header">
+    <h3><i class="fa fa-book-open"></i> Selected Recent Papers</h3>
+    <div class="header-links">
+      <a href="publications_area/">by topics</a> |
+      <a href="publications/">by year</a> |
+      <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">
+        Google Scholar
+      </a>
     </div>
-
-    <div class="right-column">
-
-
-
-
-
-
-
-
-<!--
-     <section class="news-section">
-          <div class="section-header">
-            <h3><i class="fa fa-bullhorn"></i> News & Updates</h3>
-          </div>
-        
-          {% assign current_year = site.time | date: "%Y" | plus: 0 %}
-          {% assign current_month = site.time | date: "%m" | plus: 0 %}
-        
-          <div class="news-list">
-            {% for entry in site.data.news[0].news %}
-          
-              {% assign year_diff = current_year | minus: entry.year %}
-              {% assign month_diff = current_month | minus: entry.month %}
-               {% assign month_diff_text = current_month | minus: entry.month_text %}
-
-      
-              {% if year_diff == 0 and month_diff >= 0 and month_diff <= 3 %}
-                <div class="news-month">
-                  <span class="news-date">{{ entry.month_text }}, {{ entry.year }}</span>
-        
-                  {% for item in entry.items %}
-                    <div class="news-item">
-                      {{ item.desc | markdownify }}
-                    </div>
-                  {% endfor %}
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-        
-          <div class="section-footer">
-            <a href="news" class="btn btn-outline">Show All News</a>
-          </div>
-        </section>
-
-!-->
-
-
-
-
-
-
-    
-      <section class="awards-section">
-        <div class="section-header">
-          <h3><i class="fa fa-trophy"></i>Selected Achievements</h3>
-        </div>
-        <div class="awards-list">
-          <div class="award-item">
-            <span class="award-name"> <a href="https://icml.cc/virtual/2025/poster/44415"> ICML SpotLight!! (AC Rate <2%) </a>  </span>
-            <span class="award-year">2025</span>
-          </div>
-          <div class="award-item">
-            <span class="award-name">Open-RAG in <a href="https://www.marktechpost.com/2024/10/14/open-rag-a-novel-ai-framework-designed-to-enhance-reasoning-capabilities-in-rag-with-open-source-llms/"> MarkTechPost Coverage!! </a> </span>
-            <span class="award-year">2024</span>
-          </div>
-          <div class="award-item">
-            <span class="award-name">UCLA Graduate Fellowships</span>
-            <span class="award-year">2017, 2018</span>
-          </div>
-          <div class="award-item">
-            <span class="award-name">ACL and EMNLP Student Travel Grant</span>
-            <span class="award-year">2018, 2021</span>
-          </div>
-          
-        </div>
-        <div class="section-footer">
-          <a href="awards" class="btn btn-outline">Show More Awards</a>
-        </div>
-      </section>
-
-      <section class="talks-section">
-        <div class="section-header">
-          <h3><i class="fa fa-microphone"></i> Selected Talks</h3>
-        </div>
-        <div class="talks-list">
-          {% for t in site.data.talk[0].talk %}
-            {% if t.selected == true %}
-              <div class="talk-item">
-                <a href="{{ t.url | relative_url }}"> Tutorial: {{ t.title }}</a>
-                <span class="venue"> — {{ t.venue }}</span>
-              </div>
-            {% endif %}
-          {% endfor %}
-          {% for t in site.data.talk[1].talk %}
-            {% if t.selected == true %}
-              <div class="talk-item">
-                <a href="{{ t.url | relative_url }}">Talk:  {{ t.title }}  </a>
-              </div>
-            {% endif %}
-          {% endfor %}
-        </div>
-        <div class="section-footer">
-          <a href="talks" class="btn btn-outline">Show More Talks</a>
-        </div>
-      </section>
-    </div>
-
   </div>
+
+  <div class="papers-list">
+    {% bibliography --file ref -q @*[selected=true]* --sort_by year --order ascending %}
+  </div>
+
+  <div class="section-footer">
+    <a href="publications" class="btn btn-outline">Show More Papers</a>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
 
   <div class="experience-section">
     <div class="two-column-layout">
