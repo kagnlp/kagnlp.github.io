@@ -128,7 +128,7 @@ layout: page
       </div>
     </section>
 
-    <!-- Selected Talks -->
+    <!-- Selected Talks 
     <section class="talks-section mt-4">
       <div class="section-header">
         <h2><i class="fa fa-microphone"></i> Selected Talks</h2>
@@ -161,6 +161,8 @@ layout: page
         <a href="talks" class="btn btn-outline">Show More Talks</a>
       </div>
     </section>
+
+    -->
 
   </div>
 
@@ -201,6 +203,41 @@ layout: page
 
   </div>
 
+
+   <section class="talks-section mt-4">
+      <div class="section-header">
+        <h2><i class="fa fa-microphone"></i> Selected Talks</h2>
+      </div>
+
+      <div class="talks-list">
+        {% for t in site.data.talk[0].talk %}
+          {% if t.selected == true %}
+            <div class="talk-item">
+              <a href="{{ t.url | relative_url }}">
+                Tutorial: {{ t.title }}
+              </a>
+              <span class="venue"> — {{ t.venue }}</span>
+            </div>
+          {% endif %}
+        {% endfor %}
+
+        {% for t in site.data.talk[1].talk %}
+          {% if t.selected == true %}
+            <div class="talk-item">
+              <a href="{{ t.url | relative_url }}">
+                Talk: {{ t.title }}
+              </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class="section-footer">
+        <a href="talks" class="btn btn-outline">Show More Talks</a>
+      </div>
+    </section>
+    
+
 </section>
 
 
@@ -217,7 +254,7 @@ layout: page
     <h2><i class="fa fa-book-open"></i> Selected Recent Papers</h2>
     <div class="header-links">
      <!-- <a href="publications_area/">by topics</a> | -->
-      <a href="publications/">by year</a> |
+      <a href="publications/">By year</a> |
       <a href="https://scholar.google.com/citations?user=KhC8rtcAAAAJ&hl=en">
         Google Scholar
       </a>
