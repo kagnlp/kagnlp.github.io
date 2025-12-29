@@ -823,14 +823,56 @@ layout: page
   font-weight: 500;
 }
 
+.teaching-section, .service-section {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+  margin-bottom: 2rem;
+}
+
+.teaching-item, .service-item {
+  padding: 1.25rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #8B0000;
+  transition: all 0.3s ease;
+}
+
+.teaching-item:hover, .service-item:hover {
+  background: #fff5f5;
+  border-left-width: 6px;
+  transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(139, 0, 0, 0.1);
+}
+
+.teaching-item h4, .service-item h4 {
+  color: #8B0000;
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.teaching-item h5, .service-item h5 {
+  color: #333;
+  margin: 0.75rem 0 0.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .teaching-item h6, .service-item h6 {
   margin: 0;
   color: #555;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.6;
 }
-  
 
+.teaching-item p, .service-item p {
+  color: #666;
+  margin: 0.25rem 0;
+  font-size: 0.95rem;
+}
   
 </style>
