@@ -497,26 +497,29 @@ layout: page
 
 .section-header {
   margin-bottom: 2rem;
-  border-bottom: 3px solid #f0f0f0;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  position: relative;
 }
 
 .section-header h2, .section-header h3 {
-  color: #8B0000;
+  color: #2c3e50;
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.7rem;
+  font-weight: 700;
 }
 
 .section-header h2 {
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 2.2rem;
 }
 
 .section-header h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.section-header i {
+  color: #8B0000;
 }
 
 .section-subtitle {
@@ -545,10 +548,10 @@ layout: page
 
 .bio-content {
   background: #ffffff;
-  padding: 2.5rem;
-  border-radius: 12px;
-  border-left: 5px solid #8B0000;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  padding: 0;
+  border-radius: 0;
+  border-left: none;
+  box-shadow: none;
 }
 
 .bio-content p {
@@ -556,7 +559,7 @@ layout: page
   margin-bottom: 1.5rem;
   font-size: 1.05rem;
   color: #2c3e50;
-  text-align: justify;
+  text-align: left;
 }
 
 .bio-content p:first-of-type {
@@ -565,42 +568,45 @@ layout: page
 }
 
 .bio-content strong {
-  color: #8B0000;
-  font-weight: 600;
-  font-size: 1.05em;
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 1em;
 }
 
 .bio-content a {
-  color: #8B0000;
+  color: #1e6bb8;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s ease;
 }
 
 .bio-content a:hover {
-  border-bottom: 1px solid #8B0000;
+  border-bottom: 1px solid #1e6bb8;
 }
 
 .callout-box {
-  background: linear-gradient(135deg, #fff5f5 0%, #ffe8e8 100%);
-  border: 2px solid #8B0000;
-  border-radius: 10px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
   padding: 1.5rem;
   margin-top: 2rem;
-  box-shadow: 0 4px 15px rgba(139, 0, 0, 0.1);
+  box-shadow: none;
 }
 
 .callout-box p {
   margin: 0;
-  color: #8B0000;
-  font-size: 1.1rem;
-  font-weight: 500;
+  color: #555;
+  font-size: 1.05rem;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .callout-box strong {
-  font-size: 1.15em;
+  font-size: 1em;
   font-weight: 700;
+  color: #333;
+  font-style: normal;
 }
 
 .research-group-section {
@@ -823,56 +829,38 @@ layout: page
   font-weight: 500;
 }
 
-.teaching-section, .service-section {
-  background: white;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
-  margin-bottom: 2rem;
+.teaching-list, .service-list {
+  space-y: 1rem;
 }
 
 .teaching-item, .service-item {
-  padding: 1.25rem;
-  background: #f8f9fa;
+  padding: 2rem;
+  background: #f5f5f5;
   border-radius: 8px;
+  border-left: 5px solid #8B0000;
   margin-bottom: 1.5rem;
-  border-left: 4px solid #8B0000;
   transition: all 0.3s ease;
 }
 
 .teaching-item:hover, .service-item:hover {
-  background: #fff5f5;
+  background: #efefef;
   border-left-width: 6px;
-  transform: translateX(4px);
-  box-shadow: 0 2px 8px rgba(139, 0, 0, 0.1);
-}
-
-.teaching-item h4, .service-item h4 {
-  color: #8B0000;
-  margin: 0 0 0.5rem 0;
-  font-size: 1.3rem;
-  font-weight: 600;
 }
 
 .teaching-item h5, .service-item h5 {
-  color: #333;
-  margin: 0.75rem 0 0.5rem 0;
-  font-size: 1.1rem;
-  font-weight: 600;
+  margin: 0 0 0.8rem 0;
+  color: #1a1a1a;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.4;
 }
 
 .teaching-item h6, .service-item h6 {
   margin: 0;
-  color: #555;
-  font-size: 1rem;
+  color: #444;
+  font-size: 1.15rem;
   font-weight: 400;
   line-height: 1.6;
 }
-
-.teaching-item p, .service-item p {
-  color: #666;
-  margin: 0.25rem 0;
-  font-size: 0.95rem;
-}
-  
 </style>
+
