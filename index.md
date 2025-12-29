@@ -327,6 +327,9 @@ layout: page
   </div>
 </div>
 
+
+
+
 <style>
 /* Modern styling for the Jekyll page */
 
@@ -494,40 +497,26 @@ layout: page
 
 .section-header {
   margin-bottom: 2rem;
-  border-bottom: 3px solid #8B0000;
+  border-bottom: 3px solid #f0f0f0;
   padding-bottom: 1rem;
-  position: relative;
-}
-
-.section-header::after {
-  content: '';
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 80px;
-  height: 3px;
-  background: #c41e3a;
 }
 
 .section-header h2, .section-header h3 {
-  color: #2c3e50;
+  color: #8B0000;
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 0.7rem;
-  font-weight: 700;
+  gap: 0.5rem;
 }
 
 .section-header h2 {
-  font-size: 2.2rem;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .section-header h3 {
-  font-size: 1.6rem;
-}
-
-.section-header i {
-  color: #8B0000;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .section-subtitle {
@@ -839,10 +828,10 @@ layout: page
 }
 
 .teaching-item, .service-item {
-  padding: 1.5rem;
+  padding: 1rem;
   background: #f8f9fa;
   border-radius: 8px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   transition: all 0.3s ease;
 }
 
@@ -852,22 +841,18 @@ layout: page
 }
 
 .teaching-item h5, .service-item h5 {
-  margin: 0 0 0.7rem 0;
-  color: #2c3e50;
-  font-size: 1.3rem;
-  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1.15rem;
+  font-weight: 600;
   line-height: 1.4;
 }
 
 .teaching-item h6, .service-item h6 {
   margin: 0;
   color: #555;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 </style>
-
-
-</style>
-
