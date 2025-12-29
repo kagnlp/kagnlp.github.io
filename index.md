@@ -328,7 +328,6 @@ layout: page
 </div>
 
 
-
 <style>
 /* Modern styling for the Jekyll page */
 
@@ -556,27 +555,28 @@ layout: page
 
 .bio-content p {
   line-height: 1.8;
-  margin-bottom: 1.5rem;
-  font-size: 1.15rem;
+  margin-bottom: 1.8rem;
+  font-size: 1.3rem;
   color: #2c3e50;
   text-align: left;
 }
 
 .bio-content p:first-of-type {
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   color: #1a1a1a;
+  font-weight: 400;
 }
 
 .bio-content strong {
   color: #1a1a1a;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1.05em;
 }
 
 .bio-content a {
   color: #1e6bb8;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s ease;
 }
@@ -597,13 +597,13 @@ layout: page
 .callout-box p {
   margin: 0;
   color: #555;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: 400;
   font-style: italic;
 }
 
 .callout-box strong {
-  font-size: 1em;
+  font-size: 1.05em;
   font-weight: 700;
   color: #333;
   font-style: normal;
@@ -862,5 +862,8 @@ layout: page
   font-weight: 400;
   line-height: 1.6;
 }
+</style>
+
+
 </style>
 
