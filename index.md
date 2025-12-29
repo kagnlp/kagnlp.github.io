@@ -330,22 +330,19 @@ layout: page
 <style>
 /* Modern styling for the Jekyll page */
 
-
-
 .hero-section {
   background: linear-gradient(
-  to right,
-  #4a0e0e 0%,   /* deep muted red */
-  #8B0000 50%,
-  #4a0e0e 100%  /* symmetrical */
-);
+    to right,
+    #3d0808 0%,   /* deeper muted burgundy */
+    #8B0000 50%,
+    #3d0808 100%  /* symmetrical fade */
+  );
   color: #ffffff;
   padding: 4rem 0;
   margin: -2rem -15px 3rem -15px;
   position: relative;
   overflow: hidden;
 }
-
 
 .hero-section::before {
   content: '';
@@ -354,7 +351,9 @@ layout: page
   left: 0;
   right: 0;
   bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="white" opacity="0.1"/><circle cx="75" cy="75" r="1" fill="white" opacity="0.1"/><circle cx="50" cy="10" r="0.5" fill="white" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
   pointer-events: none;
 }
 
@@ -384,6 +383,7 @@ layout: page
   height: 150px;
   border-radius: 50%;
   border: 4px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -419,13 +419,15 @@ layout: page
   font-weight: 700;
   margin: 0 0 0.5rem 0;
   color: white !important;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  letter-spacing: -0.5px;
 }
 
 .role-subtitle {
   font-size: 1.3rem;
-  opacity: 0.9;
+  opacity: 0.95;
   margin: 0 0 1rem 0;
+  font-weight: 300;
 }
 
 .research-tags {
@@ -435,12 +437,18 @@ layout: page
 }
 
 .tag {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 0.3rem 0.8rem;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.4rem 1rem;
   border-radius: 20px;
   font-size: 0.9rem;
   backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.3s ease;
+}
+
+.tag:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
 }
 
 .contact-grid {
@@ -454,8 +462,8 @@ layout: page
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  padding: 1rem;
-  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem 1.25rem;
+  background: rgba(255, 255, 255, 0.12);
   border-radius: 12px;
   text-decoration: none;
   color: white;
@@ -465,9 +473,9 @@ layout: page
 }
 
 .contact-item:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.22);
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
   color: white;
   text-decoration: none;
 }
@@ -612,6 +620,12 @@ layout: page
   background: #f8f9fa;
   border-radius: 8px;
   margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.award-item:hover {
+  background: #fff5f5;
+  transform: translateX(4px);
 }
 
 .award-name {
@@ -634,6 +648,12 @@ layout: page
   background: #f8f9fa;
   margin-bottom: 1rem;
   border-radius: 0 8px 8px 0;
+  transition: all 0.3s ease;
+}
+
+.talk-item:hover {
+  background: #fff5f5;
+  border-left-width: 5px;
 }
 
 .talk-item a {
@@ -665,6 +685,8 @@ layout: page
   background: #8B0000;
   color: white;
   text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(139, 0, 0, 0.3);
 }
 
 .section-footer {
@@ -694,20 +716,19 @@ layout: page
 }
 
 .news-date {
-  display: block;        /* ensure it's on its own line */
-  font-weight: 600;      /* bold text */
-  font-size: 1rem;       /* slightly larger */
-  color: #1a1a1a;        /* darker or accent color */
-  margin-bottom: 0.5rem; /* spacing before items */
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
 }
 
 .news-item {
-  margin-left: 1rem;      /* indent items under the date */
-  line-height: 1.5;       /* better readability */
-  font-size: 0.95rem;     /* slightly smaller than date */
-  color: #333;            /* lighter than date */
+  margin-left: 1rem;
+  line-height: 1.5;
+  font-size: 0.95rem;
+  color: #333;
 }
-
 
 .experience-timeline {
   position: relative;
@@ -721,7 +742,7 @@ layout: page
   top: 0;
   bottom: 0;
   width: 2px;
-  background: #8B0000;
+  background: linear-gradient(to bottom, #8B0000, rgba(139, 0, 0, 0.3));
 }
 
 .timeline-item {
@@ -736,9 +757,15 @@ layout: page
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #667eea;
+  background: #8B0000;
   border: 3px solid white;
-  box-shadow: 0 0 0 3px #8B0000;
+  box-shadow: 0 0 0 3px rgba(139, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover .timeline-marker {
+  transform: scale(1.3);
+  box-shadow: 0 0 0 5px rgba(139, 0, 0, 0.2);
 }
 
 .timeline-content h4 {
@@ -767,38 +794,26 @@ layout: page
   background: #f8f9fa;
   border-radius: 8px;
   margin-bottom: 1rem;
+  transition: all 0.3s ease;
 }
 
-.teaching-item h4 {
+.teaching-item:hover, .service-item:hover {
+  background: #fff5f5;
+  transform: translateX(4px);
+}
+
+.teaching-item h5, .service-item h5 {
   margin: 0 0 0.5rem 0;
   color: #333;
   font-size: 1rem;
   font-weight: 600;
 }
 
-.teaching-item p {
+.teaching-item h6, .service-item h6 {
   margin: 0;
   color: #666;
   font-size: 0.9rem;
-}
-
-.service-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.service-role {
-  font-weight: 600;
-  color: #333;
-}
-
-.service-venue {
-  color: #8B0000;
-  font-weight: 500;
-  background: #fff5f5;
-  padding: 0.2rem 0.8rem;
-  border-radius: 15px;
-  font-size: 0.9rem;
+  font-weight: 400;
 }
 </style>
+
