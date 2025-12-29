@@ -546,17 +546,18 @@ layout: page
 }
 
 
-.bio-content {
-  background: #f8f9fa; 
-  padding: 2rem; 
-  border-radius: 12px; 
-  border-left: 4px solid #8B0000; 
-} 
-.bio-content p 
-{ 
-    line-height: 1.7;
-    margin-bottom: 1.2rem; 
+bio-content {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid #8B0000;
 }
+
+.bio-content p {
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
   
 
 
