@@ -329,7 +329,6 @@ layout: page
 
 
 
-
 <style>
 /* Modern styling for the Jekyll page */
 
@@ -497,8 +496,9 @@ layout: page
 
 .section-header {
   margin-bottom: 2rem;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.75rem;
   position: relative;
+  border-bottom: 2px solid #ddd;
 }
 
 .section-header h2, .section-header h3 {
@@ -557,13 +557,13 @@ layout: page
 .bio-content p {
   line-height: 1.8;
   margin-bottom: 1.5rem;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   color: #2c3e50;
   text-align: left;
 }
 
 .bio-content p:first-of-type {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #1a1a1a;
 }
 
@@ -597,7 +597,7 @@ layout: page
 .callout-box p {
   margin: 0;
   color: #555;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 400;
   font-style: italic;
 }
