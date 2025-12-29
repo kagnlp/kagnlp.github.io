@@ -331,12 +331,14 @@ layout: page
 <style>
 /* Modern styling for the Jekyll page */
 
+/* Modern styling for the Jekyll page */
+
 .hero-section {
   background: linear-gradient(
     to right,
-    #3d0808 0%,   /* deeper muted burgundy */
+    #3d0808 0%,
     #8B0000 50%,
-    #3d0808 100%  /* symmetrical fade */
+    #3d0808 100%
   );
   color: #ffffff;
   padding: 4rem 0;
@@ -535,9 +537,11 @@ layout: page
 .header-links a {
   color: #8B0000;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .header-links a:hover {
+  color: #5d0000;
   text-decoration: underline;
 }
 
@@ -545,29 +549,31 @@ layout: page
   margin-bottom: 3rem;
 }
 
-
-bio-content {
+.bio-content {
   background: #f8f9fa;
   padding: 2rem;
   border-radius: 12px;
   border-left: 4px solid #8B0000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .bio-content p {
   line-height: 1.7;
   margin-bottom: 1.2rem;
+  color: #333;
 }
 
-  
-
+.bio-content p:last-child {
+  margin-bottom: 0;
+}
 
 .callout-box {
-  background: #f5f5f5;
+  background: linear-gradient(135deg, #f8f9fa 0%, #f0f0f0 100%);
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px;
   padding: 1.5rem;
   margin-top: 2rem;
-  box-shadow: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
 .callout-box p {
@@ -576,6 +582,7 @@ bio-content {
   font-size: 1.25rem;
   font-weight: 400;
   font-style: italic;
+  line-height: 1.6;
 }
 
 .callout-box strong {
@@ -591,6 +598,7 @@ bio-content {
   padding: 2rem;
   background: linear-gradient(45deg, #f5f5f5 0%, #e8e8e8 100%);
   border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
 }
 
 .two-column-layout {
@@ -618,6 +626,10 @@ bio-content {
   .contact-grid {
     grid-template-columns: 1fr;
   }
+  
+  .hero-section {
+    padding: 3rem 0;
+  }
 }
 
 .papers-section, .awards-section, .talks-section {
@@ -626,10 +638,17 @@ bio-content {
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
   margin-bottom: 2rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.papers-section:hover, .awards-section:hover, .talks-section:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .awards-list, .talks-list {
-  space-y: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .award-item {
@@ -646,6 +665,7 @@ bio-content {
 .award-item:hover {
   background: #fff5f5;
   transform: translateX(4px);
+  box-shadow: 0 2px 8px rgba(139, 0, 0, 0.1);
 }
 
 .award-name {
@@ -674,12 +694,14 @@ bio-content {
 .talk-item:hover {
   background: #fff5f5;
   border-left-width: 5px;
+  box-shadow: 0 2px 8px rgba(139, 0, 0, 0.1);
 }
 
 .talk-item a {
   color: #333;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .talk-item a:hover {
@@ -722,6 +744,11 @@ bio-content {
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
   margin-bottom: 2rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.experience-section:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
 .cv-link {
@@ -729,6 +756,12 @@ bio-content {
   color: #8B0000;
   text-decoration: none;
   margin-left: auto;
+  transition: color 0.3s ease;
+}
+
+.cv-link:hover {
+  color: #5d0000;
+  text-decoration: underline;
 }
 
 .news-month {
@@ -745,9 +778,16 @@ bio-content {
 
 .news-item {
   margin-left: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: 0.95rem;
   color: #333;
+  padding-left: 1rem;
+  border-left: 2px solid #e0e0e0;
+  transition: border-color 0.3s ease;
+}
+
+.news-item:hover {
+  border-left-color: #8B0000;
 }
 
 .experience-timeline {
@@ -792,11 +832,13 @@ bio-content {
   margin: 0 0 0.5rem 0;
   color: #333;
   font-weight: 600;
+  font-size: 1.1rem;
 }
 
 .timeline-content p {
   margin: 0 0 0.5rem 0;
   color: #666;
+  line-height: 1.6;
 }
 
 .timeline-date {
@@ -806,7 +848,9 @@ bio-content {
 }
 
 .teaching-list, .service-list {
-  space-y: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .teaching-item, .service-item {
@@ -821,6 +865,7 @@ bio-content {
 .teaching-item:hover, .service-item:hover {
   background: #efefef;
   border-left-width: 6px;
+  box-shadow: 0 2px 8px rgba(139, 0, 0, 0.1);
 }
 
 .teaching-item h5, .service-item h5 {
