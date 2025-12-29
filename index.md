@@ -330,14 +330,22 @@ layout: page
 <style>
 /* Modern styling for the Jekyll page */
 
+
+
 .hero-section {
-  background: linear-gradient(135deg, #8B0000 0%, #B22222 100%);
-  color: white;
+  background: linear-gradient(
+    135deg,
+    #7a0000 0%,
+    #8B0000 60%,
+    #9a1a1a 100%
+  );
+  color: #ffffff;
   padding: 4rem 0;
   margin: -2rem -15px 3rem -15px;
   position: relative;
   overflow: hidden;
 }
+
 
 .hero-section::before {
   content: '';
