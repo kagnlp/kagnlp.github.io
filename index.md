@@ -365,6 +365,9 @@ layout: page
   z-index: 1;
 }
 
+/* ================================
+   PROFILE
+================================ */
 .profile-container {
   display: flex;
   align-items: center;
@@ -382,8 +385,7 @@ layout: page
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 4px solid rgba(255, 255, 255, 0.3);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  border: 4px solid rgba(255, 255, 255, 0.35);
   object-fit: cover;
   transition: transform 0.3s ease;
 }
@@ -398,17 +400,18 @@ layout: page
   right: 10px;
   width: 20px;
   height: 20px;
-  background: #4CAF50;
+  background: #2ecc71;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #3c58ad;
   animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.7); }
-  70% { box-shadow: 0 0 0 10px rgba(76, 175, 80, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(46, 204, 113, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(46, 204, 113, 0); }
 }
+
 
 .profile-info {
   flex: 1;
