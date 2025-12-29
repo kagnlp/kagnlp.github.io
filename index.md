@@ -335,9 +335,8 @@ layout: page
 .hero-section {
   background: linear-gradient(
     135deg,
-    #7a0000 0%,
-    #8B0000 60%,
-    #9a1a1a 100%
+    #7A0019 0%,   /* deep burgundy */
+    #8B0000 70%   /* your original red */
   );
   color: #ffffff;
   padding: 4rem 0;
