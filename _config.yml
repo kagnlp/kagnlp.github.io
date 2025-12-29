@@ -32,7 +32,7 @@ navbar-links:
   Lead: ""
   Group: "members"
   # Research: "research"
-  Topics: "publications_area" 
+  # Topics: "publications_area" 
   Publications : "publications"
   Talks: "talks"
   # News: "blog"
