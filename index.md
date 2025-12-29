@@ -886,5 +886,4 @@ layout: page
 </style>
 
 
-</style>
 
