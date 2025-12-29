@@ -805,15 +805,18 @@ layout: page
 .teaching-item h5, .service-item h5 {
   margin: 0 0 0.5rem 0;
   color: #333;
-  font-size: 1rem;
+  font-size: 1.15rem;
   font-weight: 600;
+  line-height: 1.4;
 }
 
 .teaching-item h6, .service-item h6 {
   margin: 0;
-  color: #666;
-  font-size: 0.9rem;
+  color: #555;
+  font-size: 1rem;
   font-weight: 400;
+  line-height: 1.5;
 }
+</style>
 </style>
 
