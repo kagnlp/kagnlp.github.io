@@ -70,7 +70,7 @@ layout: page
   <section class="research-group-section">
     <div class="section-header">
       <h2><i class="fa fa-users"></i> <a href="members">Our Research Group</a></h2>
-      <p class="section-subtitle">See our amazing team members</p>
+      <p class="section-subtitle"><a href="members"> See our amazing team members</a> </p>
     </div>
   </section>
 
