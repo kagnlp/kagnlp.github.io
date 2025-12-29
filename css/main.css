@@ -1,5 +1,152 @@
 @import url("pygment_highlights.css");
 
+
+
+/* ================================
+   HERO / BIO SECTION
+================================ */
+
+.hero-section {
+  background: linear-gradient(
+    135deg,
+    #4a1f1f 0%,
+    #6b2a2a 50%,
+    #7a2e2e 100%
+  );
+  padding: 60px 40px;
+  border-radius: 12px;
+  color: #ffffff;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ================================
+   PROFILE LAYOUT
+================================ */
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.profile-image {
+  position: relative;
+}
+
+.profile-avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid rgba(255, 255, 255, 0.35);
+}
+
+.status-indicator {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 18px;
+  height: 18px;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  border: 3px solid #4a1f1f;
+}
+
+/* ================================
+   TEXT
+================================ */
+
+.name-title {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.role-subtitle {
+  font-size: 1.2rem;
+  margin: 6px 0 14px;
+  color: #f3dede;
+}
+
+/* ================================
+   RESEARCH TAGS
+================================ */
+
+.research-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* ================================
+   CONTACT GRID
+================================ */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  transition: all 0.25s ease;
+}
+
+.contact-item i {
+  font-size: 1.2rem;
+}
+
+.contact-item:hover {
+  background: rgba(255, 255, 255, 0.28);
+  transform: translateY(-2px);
+}
+
+/* ================================
+   RESPONSIVE
+================================ */
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-avatar {
+    width: 120px;
+    height: 120px;
+  }
+
+  .name-title {
+    font-size: 2.2rem;
+  }
+}
+
 /* --- General --- */
 
 body {
