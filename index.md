@@ -545,45 +545,20 @@ layout: page
   margin-bottom: 3rem;
 }
 
+
 .bio-content {
-  background: #ffffff;
-  padding: 0;
-  border-radius: 0;
-  border-left: none;
-  box-shadow: none;
+  background: #f8f9fa; 
+  padding: 2rem; 
+  border-radius: 12px; 
+  border-left: 4px solid #8B0000; 
+} 
+.bio-content p 
+{ 
+    line-height: 1.7;
+    margin-bottom: 1.2rem; 
 }
+  
 
-.bio-content p {
-  line-height: 1.8;
-  margin-bottom: 1.8rem;
-  font-size: 1.3rem;
-  color: #2c3e50;
-  text-align: left;
-}
-
-.bio-content p:first-of-type {
-  font-size: 1.35rem;
-  color: #1a1a1a;
-  font-weight: 400;
-}
-
-.bio-content strong {
-  color: #1a1a1a;
-  font-weight: 700;
-  font-size: 1.05em;
-}
-
-.bio-content a {
-  color: #1e6bb8;
-  text-decoration: none;
-  font-weight: 500;
-  border-bottom: 1px solid transparent;
-  transition: border-bottom 0.3s ease;
-}
-
-.bio-content a:hover {
-  border-bottom: 1px solid #1e6bb8;
-}
 
 .callout-box {
   background: #f5f5f5;
